@@ -6,10 +6,19 @@ const GlobalStyle = createGlobalStyle`
             margin:0;
             box-sizing:border-box;
         }
+        html{
+            font-size:62.5%;
+        }
         body{
-            width:100vw;
-            height:100vh;
+            min-height:100vh;
             background:lightgray;
+            font-family:'DM Sans','Sans-Serif';
+        }
+        a{
+            text-decoration:none;
+        }
+        li{
+            list-style: none;
         }
 `
 
