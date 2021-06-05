@@ -1,9 +1,10 @@
 import React, { useEffect }from 'react'
 import Header from './components/Header/'
 import Hero from './components/Hero/'
+import Main from './components/Main/'
 import GlobalStyle  from './GlobalStyle'
 import WebFont from 'webfontloader';
-import { HeroObjOne, HeroObjTwo, HeroObjThree } from './components/Hero/HeroData';
+import { MainObjOne,MainObjTwo } from './components/Main/MainData';
 
 function App() {
   useEffect(()=>{
@@ -17,9 +18,9 @@ function App() {
     <>
       <GlobalStyle />
       <Header />
-      <Hero {...HeroObjOne}/>
-      <Hero {...HeroObjTwo}/>
-      <Hero {...HeroObjThree}/>
+      <Hero />
+      <Main {...MainObjOne}/>
+      <Main {...MainObjTwo}/>
     </>
   )
 }
