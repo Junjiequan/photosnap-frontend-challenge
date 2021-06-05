@@ -41,7 +41,8 @@ export const MainP = styled.p`
     font-size:1.5rem;
     line-height:2.5rem;
 `
-export const MainBtn = styled.button`
+export const MainBtn = styled.a`
+    cursor:pointer;
     display:flex;
     position:relative;
     margin-top:4.8rem;
@@ -55,7 +56,7 @@ export const MainBtn = styled.button`
     & > svg {
         margin-left:1.8rem;
         transition:transform .3s ease-in;
-        transition-delay:300ms;
+        transition-delay:220ms;
         & g{
             stroke:${({colorWhite}) => colorWhite ? `#fff` : `#000`};
         }

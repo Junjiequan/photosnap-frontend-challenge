@@ -11,7 +11,6 @@ const GlobalStyle = createGlobalStyle`
         }
         body{
             min-height:100vh;
-            background:lightgray;
             font-family:'DM Sans','arial';
         }
         a{

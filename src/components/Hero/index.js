@@ -11,7 +11,8 @@ import{
 } from './HeroElements';
 import  heroImg  from '../../assets/home/desktop/create-and-share.jpg';
 
-function Hero({title,info,svgColor,img}) {
+function Hero() {
+
     return (
         <HeroContainer>
             <HeroDescWrapper >
@@ -21,16 +22,16 @@ function Hero({title,info,svgColor,img}) {
                         Photosnap is a platform for photographers and visual storytellers. 
                         We make it easy to share photos, tell stories and connect with others.
                     </HeroP>
-                    <HeroBtn as ="a" href="javascript:void(0)" rel="noopener noreferrer">
+                    <HeroBtn aria-label="link to the invitation page">
                         GET AN INVITE
                         <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14">
-                            <g fill="none" fill-rule="evenodd" stroke="#fff"><path d="M0 7h41.864M35.428 1l6 6-6 6"/></g>
+                            <g fill="none" fillRule="evenodd" stroke="#fff"><path d="M0 7h41.864M35.428 1l6 6-6 6"/></g>
                         </svg>
                     </HeroBtn>
                 </HeroDescription>
             </HeroDescWrapper>
             <HeroImgWrapper>
-                <HeroImg src={heroImg} />
+                <HeroImg src={heroImg} alt="A man looking at the occean"/>
             </HeroImgWrapper>
         </HeroContainer>
     )

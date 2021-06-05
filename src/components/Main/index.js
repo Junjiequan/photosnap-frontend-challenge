@@ -19,10 +19,10 @@ function Main({reversed,title,info,btnText,svgColor,img,bgWhite,textColor,btnCol
                     <MainP>
                         {info}
                     </MainP>
-                    <MainBtn colorWhite={btnColor} as ="a" href="javascript:void(0)" rel="noopener noreferrer">
+                    <MainBtn colorWhite={btnColor} >
                         {btnText}
                         <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14">
-                            <g fill="none" fill-rule="evenodd" stroke={svgColor}><path d="M0 7h41.864M35.428 1l6 6-6 6"/></g>
+                            <g fill="none" fillRule="evenodd" stroke={svgColor}><path d="M0 7h41.864M35.428 1l6 6-6 6"/></g>
                         </svg>
                     </MainBtn>
                 </MainDescription>
