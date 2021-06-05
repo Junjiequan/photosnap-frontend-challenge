@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/photosnap-frontend-challenge/static/js/main.d5370132.chunk.js",
-    "main.js.map": "/photosnap-frontend-challenge/static/js/main.d5370132.chunk.js.map",
+    "main.js": "/photosnap-frontend-challenge/static/js/main.c1d7bbfd.chunk.js",
+    "main.js.map": "/photosnap-frontend-challenge/static/js/main.c1d7bbfd.chunk.js.map",
     "runtime-main.js": "/photosnap-frontend-challenge/static/js/runtime-main.01ef5a93.js",
     "runtime-main.js.map": "/photosnap-frontend-challenge/static/js/runtime-main.01ef5a93.js.map",
     "static/js/2.f26ad5bb.chunk.js": "/photosnap-frontend-challenge/static/js/2.f26ad5bb.chunk.js",
@@ -11,11 +11,12 @@
     "static/media/beautiful-stories.c53d42be.jpg": "/photosnap-frontend-challenge/static/media/beautiful-stories.c53d42be.jpg",
     "static/media/create-and-share.c2900517.jpg": "/photosnap-frontend-challenge/static/media/create-and-share.c2900517.jpg",
     "static/media/designed-for-everyone.70f5fa4c.jpg": "/photosnap-frontend-challenge/static/media/designed-for-everyone.70f5fa4c.jpg",
-    "static/media/logo.a44763db.svg": "/photosnap-frontend-challenge/static/media/logo.a44763db.svg"
+    "static/media/logo.a44763db.svg": "/photosnap-frontend-challenge/static/media/logo.a44763db.svg",
+    "static/media/mountains.2540b713.jpg": "/photosnap-frontend-challenge/static/media/mountains.2540b713.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.01ef5a93.js",
     "static/js/2.f26ad5bb.chunk.js",
-    "static/js/main.d5370132.chunk.js"
+    "static/js/main.c1d7bbfd.chunk.js"
   ]
 }
