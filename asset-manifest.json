@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/photosnap-frontend-challenge/static/js/main.acf153bb.chunk.js",
+    "main.js.map": "/photosnap-frontend-challenge/static/js/main.acf153bb.chunk.js.map",
+    "runtime-main.js": "/photosnap-frontend-challenge/static/js/runtime-main.01ef5a93.js",
+    "runtime-main.js.map": "/photosnap-frontend-challenge/static/js/runtime-main.01ef5a93.js.map",
+    "static/js/2.30f58417.chunk.js": "/photosnap-frontend-challenge/static/js/2.30f58417.chunk.js",
+    "static/js/2.30f58417.chunk.js.map": "/photosnap-frontend-challenge/static/js/2.30f58417.chunk.js.map",
+    "index.html": "/photosnap-frontend-challenge/index.html",
+    "static/js/2.30f58417.chunk.js.LICENSE.txt": "/photosnap-frontend-challenge/static/js/2.30f58417.chunk.js.LICENSE.txt",
+    "static/media/arrow.7468e8d9.svg": "/photosnap-frontend-challenge/static/media/arrow.7468e8d9.svg",
+    "static/media/create-and-share.c2900517.jpg": "/photosnap-frontend-challenge/static/media/create-and-share.c2900517.jpg",
+    "static/media/logo.a44763db.svg": "/photosnap-frontend-challenge/static/media/logo.a44763db.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.01ef5a93.js",
+    "static/js/2.30f58417.chunk.js",
+    "static/js/main.acf153bb.chunk.js"
+  ]
+}
