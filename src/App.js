@@ -3,6 +3,7 @@ import Header from './components/Header/'
 import Hero from './components/Hero/'
 import GlobalStyle  from './GlobalStyle'
 import WebFont from 'webfontloader';
+import { HeroObjOne, HeroObjTwo, HeroObjThree } from './components/Hero/HeroData';
 
 function App() {
   useEffect(()=>{
@@ -16,7 +17,9 @@ function App() {
     <>
       <GlobalStyle />
       <Header />
-      <Hero />
+      <Hero {...HeroObjOne}/>
+      <Hero {...HeroObjTwo}/>
+      <Hero {...HeroObjThree}/>
     </>
   )
 }
