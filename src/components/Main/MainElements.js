@@ -80,7 +80,7 @@ export const MainBtn = styled.a`
 `
 export const MainImgWrapper = styled.div`
     flex: 1 1 83rem;
-    max-height:60rem;
+    height:60rem;
 `
 export const MainImg = styled.img`
     width:100%;

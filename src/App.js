@@ -22,11 +22,11 @@ function App() {
     <>
       <GlobalStyle />
       <Header />
-      <Hero />
+      <Hero  />
       <Main {...MainObjOne} />
       <Main {...MainObjTwo} />
       <Gallery data={galleryCollections} />
-      <Features data={FeaturesData}/>
+      <Features data={FeaturesData} />
     </>
   )
 }
