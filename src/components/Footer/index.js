@@ -40,9 +40,9 @@ function Footer() {
                     </FooterLinks>
                     <FooterLinksPage>
                         <FooterLink href="#">home</FooterLink>
-                        <FooterLink  href="#">stories</FooterLink>
-                        <FooterLink  href="#">features</FooterLink>
-                        <FooterLink  href="#">pricing</FooterLink>
+                        <FooterLink href="#">stories</FooterLink>
+                        <FooterLink href="#">features</FooterLink>
+                        <FooterLink href="#">pricing</FooterLink>
                     </FooterLinksPage>
                 </FooterLeftSection>
                 <FooterRightSection>
