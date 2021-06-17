@@ -7,6 +7,7 @@ import {
     GalleryP,
     GalleryBtn
 } from './GalleryElements';
+
 function Gallery({data}) {
     return (
         <GalleryGrid>

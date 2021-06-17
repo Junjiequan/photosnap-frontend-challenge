@@ -27,9 +27,12 @@ export const Nav = styled.div`
     font-size:1.2rem;
     font-weight:700;
 `
+export const NavLogoLink = styled.a`
+    width:100%;
+    cursor:pointer;
+`
 export const NavLogo = styled.img`
     max-width:16.9rem;
-
 `
 export const NavMenu = styled.ul`
     width:100%;

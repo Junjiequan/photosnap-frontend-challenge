@@ -2,18 +2,21 @@ import React from 'react'
 import{
     NavContainer,
     Nav,
+    NavLogoLink,
     NavLogo,
     NavMenu,
     NavItem,
 } from './HeaderElements';
-import  GlobalBtn  from '../../GlobalBtn';
-import  logoImg  from '../../assets/shared/desktop/logo.svg'
+import  { GlobalBtn }  from '../../GlobalBtn';
+import  logoImg  from '../../assets/shared/desktop/logo-black.svg'
 
 function Header() {
     return (
         <NavContainer>
             <Nav>
-                <NavLogo src={logoImg} alt="photosnap logo"></NavLogo>
+                <NavLogoLink>
+                    <NavLogo src={logoImg} alt="photosnap logo"></NavLogo>
+                </NavLogoLink>
                 <NavMenu>
                     <NavItem>
                         stories
