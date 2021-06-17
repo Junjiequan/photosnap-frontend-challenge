@@ -6,6 +6,7 @@ import{
     NavLogo,
     NavMenu,
     NavItem,
+    NavBtnWrapper
 } from './HeaderElements';
 import  { GlobalBtn }  from '../../GlobalBtn';
 import  logoImg  from '../../assets/shared/desktop/logo-black.svg'
@@ -28,7 +29,9 @@ function Header() {
                         pricing
                     </NavItem>
                 </NavMenu>
-                <GlobalBtn />
+                <NavBtnWrapper>
+                    <GlobalBtn />
+                </NavBtnWrapper>
             </Nav>
         </NavContainer>
     )

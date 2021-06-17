@@ -21,7 +21,7 @@ export const Nav = styled.div`
     display:flex;
     justify-content:space-between;
     align-items:center;
-    margin:0 16.5rem;
+    margin:0 3.5rem;
     width:100%;
     max-width:1440px;
     font-size:1.2rem;
@@ -39,6 +39,9 @@ export const NavMenu = styled.ul`
     width:100%;
     display:flex;
     justify-content:center;
+    @media screen and (max-width:767px){
+        display:none;
+    }
 `
 export const NavItem = styled.li`
     z-index:2;
@@ -55,10 +58,15 @@ export const NavItem = styled.li`
     &:hover{
         mask-position:-150%;
         mask-size:195px;
-        border-left: 3px solid rgba(188, 113, 152, 1);
+        border-left: 3px solid rgba(90, 119, 255, 1);
     }
 `
-
+export const NavBtnWrapper = styled.div`
+    display:block;
+    @media screen and (max-width:767px){
+        display:none;
+    }
+`
 export const NavLinks = styled.div`
 
 `

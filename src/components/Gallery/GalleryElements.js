@@ -6,14 +6,15 @@ export const GalleryGrid = styled.section`
     grid-template-columns: repeat(auto-fit,minmax(35rem,1fr));
     grid-template-rows:auto;
     height:100%;
-
+    @media screen and (max-width:767px){
+        grid-template-columns: repeat(auto-fit,minmax(100%,1fr));
+    }
 `
 export const GalleryGridItem = styled.div`
     background-image:url(${(bgImg)=> bgImg.bg});
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: center;
     background-size: cover;
-    height:100%;
     min-height:50rem;
     color:#fff;
     display:flex;
@@ -23,6 +24,7 @@ export const GalleryGridItem = styled.div`
     position:relative;
     cursor:pointer;
     transition:transform .3s ease;
+    
     &:before{
         position:absolute;
         content:'';
@@ -46,6 +48,10 @@ export const GalleryGridItem = styled.div`
     &:hover:after{
         width:100%;
         height:6px;
+    }
+    @media screen and (max-width:767px){
+        min-height:37.5rem;
+        padding:0 1rem;
     }
 `
 export const GalleryDesc = styled.div`

@@ -12,6 +12,9 @@ export const MainContainer = styled.section`
     flex-direction:${({reversed}) => reversed ? `row-reverse`: `none`};
     width:100%;
     justify-content:center;
+    @media screen and (max-width:767px){
+        flex-direction:column-reverse;
+    }
 `
 export const MainDescWrapper = styled.div`
     flex: 1 1 61rem;
@@ -22,18 +25,32 @@ export const MainDescWrapper = styled.div`
     justify-content:center;
     align-items:center;
     background:${({bgWhite})=> bgWhite ? `#fff`: `#000`};
+    @media screen and (max-width:767px){
+        max-height:42rem;
+        min-width:100%;
+        max-width:37.5rem;
+        padding:0 3.5rem;
+    }
 `
 export const MainDescription = styled.div`
     color:${({colorWhite}) => colorWhite ? `#fff` : `#000`};
     display:flex;
     flex-direction:column;
     max-width:38.7rem;
+    @media screen and (max-width:767px){
+        max-width:31.8rem;
+    }
 `
 export const MainH1 = styled.h1`
     font-size:4rem;
     text-transform:uppercase;
     letter-spacing:.4rem;
     line-height:4.8rem;
+    @media screen and (max-width:767px){
+        font-size:3.2rem;
+        line-height:4rem;
+        letter-spacing:.33rem;
+    }
 `
 export const MainP = styled.p`
     margin-top:2.1rem;
@@ -81,9 +98,13 @@ export const MainBtn = styled.a`
 export const MainImgWrapper = styled.div`
     flex: 1 1 83rem;
     height:60rem;
+    @media screen and (max-width:767px){
+        max-height:27.1rem;
+    }
 `
 export const MainImg = styled.img`
     width:100%;
     height:100%;
     object-fit: cover;
+    
 `

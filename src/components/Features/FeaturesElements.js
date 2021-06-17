@@ -15,6 +15,9 @@ export const FeaturesWrapper = styled.div`
     display:flex;
     flex-wrap:wrap;
     justify-content:center;
+    @media screen and (max-width:768px){
+        flex-direction:column;
+    }
 `
 export const FeaturesItem = styled.div`
     display:flex;
@@ -27,6 +30,7 @@ export const FeaturesItem = styled.div`
     @media screen and (max-width:1160px){
         margin:4rem 0;
     }
+
 `
 export const FeaturesIconWrapper = styled.div`
     margin-bottom:4.8rem;
