@@ -45,6 +45,10 @@ export const FooterLinks = Styled.div`
     flex-direction:column;
     justify-content:space-between;
 `
+export const FooterLogoLink = Styled.a`
+    cursor:pointer;
+    display:flex;
+`
 export const FooterLogo = Styled.img`
     max-width:16.9rem;
     max-height:1.6rem;

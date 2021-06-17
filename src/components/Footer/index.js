@@ -12,6 +12,7 @@ import {
     FooterLink,
     FooterRightSection,
     FooterCopyRight,
+    FooterLogoLink
 } from './FooterElements';
 import { GlobalArrowBtn } from '../../GlobalBtn';
 import  logoImg  from '../../assets/shared/desktop/logo-white.svg'
@@ -22,18 +23,19 @@ import pinterest from '../../assets/shared/desktop/pinterest.svg'
 import twitter from '../../assets/shared/desktop/twitter.svg'
 
 function Footer() {
+    const rel = "nofollow noreferrer noopener"
     return (
         <FooterContainer>
             <FooterWrapper>
                 <FooterLeftSection>
                     <FooterLinks>
-                        <FooterLogo src={logoImg} alt="photosnap logo"></FooterLogo>
+                        <FooterLogoLink><FooterLogo src={logoImg} alt="photosnap logo" /></FooterLogoLink>
                         <FooterSocialIcons>
-                            <Link><Icon src={faceBook} /></Link>
-                            <Link><Icon src={instagram} /></Link>
-                            <Link><Icon src={youtube} /></Link>
-                            <Link><Icon src={pinterest} /></Link>
-                            <Link><Icon src={twitter} /></Link>
+                            <Link href="https://facebook.com" target="_blank" rel={rel}><Icon src={faceBook} /></Link>
+                            <Link href="https://instagram.com" target="_blank" rel={rel}><Icon src={instagram} /></Link>
+                            <Link href="https://youtube.com" target="_blank" rel={rel}><Icon src={youtube} /></Link>
+                            <Link href="https://pinterest.com" target="_blank" rel={rel}><Icon src={pinterest} /></Link>
+                            <Link href="https://twitter.com" target="_blank" rel={rel}><Icon src={twitter} /></Link>
                         </FooterSocialIcons>
                     </FooterLinks>
                     <FooterLinksPage>

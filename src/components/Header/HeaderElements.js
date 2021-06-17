@@ -28,11 +28,12 @@ export const Nav = styled.div`
     font-weight:700;
 `
 export const NavLogoLink = styled.a`
-    width:100%;
+    display:flex;
     cursor:pointer;
 `
 export const NavLogo = styled.img`
     max-width:16.9rem;
+    max-height:1.6rem;
 `
 export const NavMenu = styled.ul`
     width:100%;
