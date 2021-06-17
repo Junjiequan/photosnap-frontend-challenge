@@ -4,6 +4,7 @@ import Hero from './components/Hero/'
 import Main from './components/Main/'
 import Gallery from './components/Gallery/'
 import Features from './components/Features/'
+import Footer from './components/Footer/'
 import GlobalStyle  from './GlobalStyle'
 import WebFont from 'webfontloader'
 import { MainObjOne,MainObjTwo } from './components/Main/MainData'
@@ -27,6 +28,7 @@ function App() {
       <Main {...MainObjTwo} />
       <Gallery data={galleryCollections} />
       <Features data={FeaturesData} />
+      <Footer />
     </>
   )
 }
