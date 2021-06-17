@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const GlobalBtn = styled.div`
+export const GlobalBtn = styled.a`
     min-width:16rem;
     height:4rem;
     color:#fff;
@@ -30,7 +30,8 @@ export const GlobalBtn = styled.div`
     }
     &:hover:before{
         background:#dfdfdf;
-        width:100%;
+        width:90%;
+        box-shadow:inset 0 0 5px rgba(0,0,0,0.2);
     }
 `
 export const GlobalArrowBtn = styled.a`

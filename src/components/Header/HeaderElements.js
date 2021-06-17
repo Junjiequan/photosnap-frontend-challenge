@@ -46,13 +46,16 @@ export const NavItem = styled.li`
     text-transform:uppercase;
     letter-spacing:.2rem;
     cursor:pointer;
-    transition:all .7s ease;
+    transition:all .8s ease-in-out;
     mask-position:0;
-    mask-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0.2));
-    mask-size:280px;
+    mask-image: linear-gradient(to right, rgba(0,0,0,1) 50%, rgba(0,0,0,0.2));
+    mask-size:400px;
+    border-left: 3px solid white;
+    padding-left:.3rem;
     &:hover{
-        mask-position:-100%;
-        mask-size:160px;
+        mask-position:-150%;
+        mask-size:195px;
+        border-left: 3px solid rgba(188, 113, 152, 1);
     }
 `
 
