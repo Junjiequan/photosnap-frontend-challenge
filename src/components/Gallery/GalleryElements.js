@@ -3,12 +3,10 @@ import styled from 'styled-components';
 
 export const GalleryGrid = styled.section`
     display:grid;
-    grid-template-columns: repeat(auto-fit,minmax(37.9rem,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(35rem,1fr));
     grid-template-rows:auto;
     height:100%;
-    @media screen and (max-width:768px){
-        grid-template-columns: repeat(auto-fill,minmax(32.9rem,1fr));
-    }
+
 `
 export const GalleryGridItem = styled.div`
     background-image:url(${(bgImg)=> bgImg.bg});
