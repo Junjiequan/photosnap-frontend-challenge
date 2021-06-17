@@ -5,8 +5,8 @@ import{
     NavLogo,
     NavMenu,
     NavItem,
-    NavBtn,
 } from './HeaderElements';
+import  GlobalBtn  from '../../GlobalBtn';
 import  logoImg  from '../../assets/shared/desktop/logo.svg'
 
 function Header() {
@@ -25,9 +25,7 @@ function Header() {
                         pricing
                     </NavItem>
                 </NavMenu>
-                <NavBtn>
-                    get an invite
-                </NavBtn>
+                <GlobalBtn />
             </Nav>
         </NavContainer>
     )

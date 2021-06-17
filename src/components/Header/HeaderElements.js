@@ -37,32 +37,21 @@ export const NavMenu = styled.ul`
     justify-content:center;
 `
 export const NavItem = styled.li`
+    z-index:2;
     margin:0 2rem;
     text-transform:uppercase;
     letter-spacing:.2rem;
     cursor:pointer;
-    transition:opacity .3s ease;
+    transition:all .7s ease;
+    mask-position:0;
+    mask-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0.2));
+    mask-size:280px;
     &:hover{
-        opacity:.3;
+        mask-position:-100%;
+        mask-size:160px;
     }
 `
+
 export const NavLinks = styled.div`
 
-`
-export const NavBtn = styled.div`
-    min-width:16rem;
-    height:4rem;
-    color:#fff;
-    background:#000;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    text-transform:uppercase;
-    letter-spacing:.2rem;
-    cursor:pointer;
-    transition:all .3s ease;
-    &:hover{
-        background:#dfdfdf;
-        color:#000;
-    } 
 `

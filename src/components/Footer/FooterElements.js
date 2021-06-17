@@ -11,7 +11,9 @@ import Styled from 'styled-components';
 // FooterRightSection,
 // FooterBtn
 
-export const FooterContainer = Styled.div``
+export const FooterContainer = Styled.div`
+    
+`
 export const FooterWrapper = Styled.div``
 export const FooterLeftSection = Styled.div``
 export const FooterLinks = Styled.div``
