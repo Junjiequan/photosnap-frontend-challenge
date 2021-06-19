@@ -1,11 +1,5 @@
 import styled from 'styled-components';
-// HeroContainer,
-// HeroDescWrapper,
-// HeroH1,
-// HeroP,
-// HeroBtn,
-// HeroImgWrapper,
-// HeroImg
+
 
 export const MainContainer = styled.section`
     display:flex;

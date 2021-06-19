@@ -1,11 +1,14 @@
-import styled from 'styled-components'
-// Header,
-// Nav,
-// NavLogo,
-// NavMenu,
-// NavItem,
-// NavLinks,
-// NavBtn,
+import styled, { keyframes } from 'styled-components'
+
+
+const animation = {
+    flash: keyframes`
+        100%{
+            mask-position:-150%;
+            mask-size:195px;
+        }
+    `
+}
 
 export const NavContainer = styled.section`
     background:#fff;
@@ -51,15 +54,15 @@ export const NavItem = styled.li`
     cursor:pointer;
     transition:all .8s ease-in-out;
     mask-position:0;
-    mask-image: linear-gradient(to right, rgba(0,0,0,1) 50%, rgba(0,0,0,0.2));
     mask-size:400px;
+    mask-image: linear-gradient(to right, rgba(0,0,0,1) 50%, rgba(0,0,0,0.2));
     border-left: 3px solid white;
     padding-left:.3rem;
     &:hover{
-        mask-position:-150%;
-        mask-size:195px;
+        animation: ${animation.flash} .6s ease-in 1;
         border-left: 3px solid rgba(90, 119, 255, 1);
     }
+
 `
 export const NavBtnWrapper = styled.div`
     display:block;

@@ -1,10 +1,5 @@
 import styled from 'styled-components';
-// FeaturesContainer,
-// FeaturesWrapper,
-// FeaturesItem,
-// FeaturesImg,
-// FeaturesH2,
-// FeaturesP
+
 
 export const FeaturesContainer = styled.div`
     margin:12rem 2rem;

@@ -1,15 +1,5 @@
 import Styled from 'styled-components';
 
-// FooterContainer,
-// FooterWrapper,
-// FooterLeftSection,
-// FooterLinks,
-// FooterLogo,
-// FooterSocialIcons,
-// FooterLinksPage,
-// FooterLink,
-// FooterRightSection,
-// FooterBtn
 
 export const FooterContainer = Styled.section`
     display:flex;
