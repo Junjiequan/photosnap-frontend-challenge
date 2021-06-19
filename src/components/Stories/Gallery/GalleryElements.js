@@ -3,11 +3,11 @@ import styled from 'styled-components';
 
 export const GalleryGrid = styled.section`
     display:grid;
-    grid-template-columns: repeat(auto-fill,minmax(40rem,1fr));
+    grid-template-columns: repeat(4,minmax(35rem,1fr));
     grid-template-rows:auto;
     height:100%;
-    @media screen and (max-width:1440px){
-        grid-template-columns: repeat(auto-fill,minmax(35rem,1fr));
+    @media screen and (max-width:1300px){
+        grid-template-columns: repeat(auto-fill,minmax(33rem,1fr));
     }
     @media screen and (max-width:767px){
         grid-template-columns: repeat(auto-fit,minmax(100%,1fr));

@@ -21,12 +21,8 @@ function App() {
       <GlobalStyle />
       <Header />
       <Switch>
-        <Route exact path="/" component={Home}>
-          <Home />
-        </Route>
-        <Route exact path="/stories" component={Stories}>
-          <Stories />
-        </Route>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/stories" component={Stories} />
       </Switch>
       <Footer />
     </Router>
