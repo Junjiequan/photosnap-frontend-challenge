@@ -1,5 +1,5 @@
 import styled, { keyframes } from 'styled-components'
-
+import { Link as LinkR } from 'react-router-dom'
 
 const animation = {
     flash: keyframes`
@@ -30,15 +30,16 @@ export const Nav = styled.div`
     font-size:1.2rem;
     font-weight:700;
 `
-export const NavLogoLink = styled.a`
+export const NavLogoLink = styled(LinkR)`
     display:flex;
     cursor:pointer;
 `
 export const NavLogo = styled.img`
+    pointer-events:none;
     max-width:16.9rem;
     max-height:1.6rem;
 `
-export const NavMenu = styled.ul`
+export const NavMenu = styled.div`
     width:100%;
     display:flex;
     justify-content:center;
@@ -46,8 +47,9 @@ export const NavMenu = styled.ul`
         display:none;
     }
 `
-export const NavItem = styled.li`
+export const NavItem = styled(LinkR)`
     z-index:2;
+    color:#000;
     margin:0 2rem;
     text-transform:uppercase;
     letter-spacing:.2rem;

@@ -15,11 +15,11 @@ function Header() {
     return (
         <NavContainer>
             <Nav>
-                <NavLogoLink>
-                    <NavLogo src={logoImg} alt="photosnap logo"></NavLogo>
+                <NavLogoLink to="/">
+                    <NavLogo src={logoImg} alt="photosnap logo" />
                 </NavLogoLink>
                 <NavMenu>
-                    <NavItem>
+                    <NavItem to="/stories">
                         stories
                     </NavItem>
                     <NavItem>
