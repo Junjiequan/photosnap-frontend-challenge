@@ -1,7 +1,7 @@
-import mountain from '../../assets/stories/desktop/mountains.jpg' 
-import city from '../../assets/stories/desktop/cityscapes.jpg' 
-import voyage from '../../assets/stories/desktop/18-days-voyage.jpg' 
-import architecture from '../../assets/stories/desktop/architecturals.jpg' 
+import mountain from '../../../assets/stories/desktop/mountains.jpg' 
+import city from '../../../assets/stories/desktop/cityscapes.jpg' 
+import voyage from '../../../assets/stories/desktop/18-days-voyage.jpg' 
+import architecture from '../../../assets/stories/desktop/architecturals.jpg' 
 
 
 export const galleryCollections = [

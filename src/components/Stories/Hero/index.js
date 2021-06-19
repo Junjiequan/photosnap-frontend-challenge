@@ -8,8 +8,8 @@ import{
     HeroImgWrapper,
     HeroImg,
 } from './HeroElements';
-import  heroImg  from '../../assets/home/desktop/create-and-share.jpg';
-import { GlobalArrowBtn} from '../../GlobalBtn';
+import  heroImg  from '../../../assets/home/desktop/create-and-share.jpg';
+import { GlobalArrowBtn} from '../../../GlobalBtn';
 
 function Hero() {
 
@@ -17,9 +17,9 @@ function Hero() {
         <HeroContainer>
             <HeroDescWrapper >
                 <HeroDescription>
-                    <HeroH1>create and share your photo stories.</HeroH1>
+                    <HeroH1>stories second inner page</HeroH1>
                     <HeroP>
-                        Photosnap is a platform for photographers and visual storytellers. 
+                         StroiesStroiesStroiesStroiesStroiesStroiesStroies
                         We make it easy to share photos, tell stories and connect with others.
                     </HeroP>
                     <GlobalArrowBtn left="false" aria-label="link to the invitation page">

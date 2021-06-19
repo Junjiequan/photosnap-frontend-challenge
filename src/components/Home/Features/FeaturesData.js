@@ -1,6 +1,6 @@
-import icon1 from '../../assets/features/desktop/responsive.svg'
-import icon2 from '../../assets/features/desktop/no-limit.svg'
-import icon3 from '../../assets/features/desktop/embed.svg'
+import icon1 from '../../../assets/features/desktop/responsive.svg'
+import icon2 from '../../../assets/features/desktop/no-limit.svg'
+import icon3 from '../../../assets/features/desktop/embed.svg'
 
 export const FeaturesData = [
     {

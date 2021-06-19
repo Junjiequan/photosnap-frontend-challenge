@@ -1,5 +1,5 @@
-import mainImg2 from '../../assets/home/desktop/beautiful-stories.jpg';
-import mainImg3 from '../../assets/home/desktop/designed-for-everyone.jpg';
+import mainImg2 from '../../../assets/home/desktop/beautiful-stories.jpg';
+import mainImg3 from '../../../assets/home/desktop/designed-for-everyone.jpg';
 
 
 export const MainObjOne = {

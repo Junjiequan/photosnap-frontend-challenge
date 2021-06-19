@@ -1,15 +1,12 @@
 import React, { useEffect }from 'react'
+import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Header from './components/Header/'
-import Hero from './components/Hero/'
-import Main from './components/Main/'
-import Gallery from './components/Gallery/'
-import Features from './components/Features/'
+import Home from './pages/Home'
+import Stories from './pages/Stories'
 import Footer from './components/Footer/'
 import GlobalStyle  from './GlobalStyle'
 import WebFont from 'webfontloader'
-import { MainObjOne,MainObjTwo } from './components/Main/MainData'
-import { galleryCollections } from './components/Gallery/GalleryData'
-import { FeaturesData } from './components/Features/FeaturesData'
+
 
 function App() {
   useEffect(()=>{
@@ -21,14 +18,19 @@ function App() {
   })
   return (
     <>
+    <Router>
       <GlobalStyle />
       <Header />
-      <Hero  />
-      <Main {...MainObjOne} />
-      <Main {...MainObjTwo} />
-      <Gallery data={galleryCollections} />
-      <Features data={FeaturesData} />
+      <Switch>
+        <Route exact path="/" >
+          <Home />
+        </Route>
+        <Route exact path="/stories">
+          <Stories />
+        </Route>
+      </Switch>
       <Footer />
+    </Router>
     </>
   )
 }
