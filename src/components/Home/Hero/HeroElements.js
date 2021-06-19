@@ -13,18 +13,16 @@ export const HeroDescWrapper = styled.div`
     flex: 1 1 61rem;
     width:100%;
     min-width:49.5rem;
-    min-height:65rem;
     display:flex;
     justify-content:center;
     align-items:center;
     background:#000;
     position:relative;
     @media screen and (max-width:767px){
-        min-height:100%;
-        max-height:41.9rem;
+        flex:0;
         min-width:100%;
         max-width:37.5rem;
-        padding:0 3.5rem;
+        padding:7.2rem 3.5rem;
     }
 `
 export const HeroDescription = styled.div`

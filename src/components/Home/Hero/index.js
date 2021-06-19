@@ -22,7 +22,7 @@ function Hero() {
                         Photosnap is a platform for photographers and visual storytellers. 
                         We make it easy to share photos, tell stories and connect with others.
                     </HeroP>
-                    <GlobalArrowBtn left="false" aria-label="link to the invitation page">
+                    <GlobalArrowBtn left="false" border="10.5rem" aria-label="link to the invitation page">
                         GET AN INVITE
                         <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14">
                             <g fill="none" fillRule="evenodd" stroke="#fff"><path d="M0 7h41.864M35.428 1l6 6-6 6"/></g>

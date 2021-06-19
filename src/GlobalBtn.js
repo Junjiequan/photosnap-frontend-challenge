@@ -41,6 +41,7 @@ export const GlobalArrowBtn = styled.a`
     letter-spacing:.2rem;
     line-height:1.5rem;
     justify-content:flex-start;
+    text-transform:uppercase;
     align-items:center;
     font-size:1.2rem;
     color:#fff;
@@ -65,7 +66,7 @@ export const GlobalArrowBtn = styled.a`
         transition: width .3s ease;
     }
     &:hover:after{
-        width:10.5rem;
+        width:${(props => props.border)}
     }
     &:hover > svg{
         transform:translateX(2rem);

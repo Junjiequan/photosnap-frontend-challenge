@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { HashRouter as Router, Route, Switch} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Header from './components/Header/'
 import Home from './pages/Home'
 import Stories from './pages/Stories'
@@ -17,7 +17,7 @@ function App() {
   })
   return (
     <>
-    <Router>
+    <Router basename="/photosnap-frontend-challenge">
       <GlobalStyle />
       <Header />
       <Switch>

@@ -3,9 +3,12 @@ import styled from 'styled-components';
 
 export const GalleryGrid = styled.section`
     display:grid;
-    grid-template-columns: repeat(auto-fit,minmax(35rem,1fr));
+    grid-template-columns: repeat(auto-fill,minmax(40rem,1fr));
     grid-template-rows:auto;
     height:100%;
+    @media screen and (max-width:1440px){
+        grid-template-columns: repeat(auto-fill,minmax(35rem,1fr));
+    }
     @media screen and (max-width:767px){
         grid-template-columns: repeat(auto-fit,minmax(100%,1fr));
     }
@@ -67,6 +70,11 @@ export const GalleryDesc = styled.div`
         opacity:.25;
         bottom:7rem;
     }
+`
+export const GalleryDate = styled.p`
+    font-size:1.3rem;
+    margin-bottom:.5rem;
+    letter-spacing:.03rem;
 `
 export const GalleryH2 = styled.h2`
     font-size:1.8rem;

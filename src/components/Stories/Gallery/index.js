@@ -3,9 +3,10 @@ import {
     GalleryGrid,
     GalleryGridItem,
     GalleryDesc,
+    GalleryDate,
     GalleryH2,
     GalleryP,
-    GalleryBtn
+    GalleryBtn,
 } from './GalleryElements';
 
 function Gallery({data}) {
@@ -15,6 +16,7 @@ function Gallery({data}) {
                 return(
                     <GalleryGridItem bg={props.img} key={index}>
                         <GalleryDesc>
+                            <GalleryDate>{props.date}</GalleryDate>
                             <GalleryH2>{props.title}</GalleryH2>
                             <GalleryP>{props.author}</GalleryP>
                             <GalleryBtn>
