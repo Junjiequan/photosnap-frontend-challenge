@@ -1,5 +1,5 @@
 import Styled from 'styled-components';
-
+import { Link as LinkR } from 'react-router-dom';
 
 export const FooterContainer = Styled.section`
     display:flex;
@@ -54,11 +54,12 @@ export const FooterLinks = Styled.div`
     justify-content:space-between;
 
 `
-export const FooterLogoLink = Styled.a`
+export const FooterLogoLink = Styled(LinkR)`
     cursor:pointer;
     display:flex;
 `
 export const FooterLogo = Styled.img`
+    pointer-events:none;
     max-width:16.9rem;
     max-height:1.6rem;
 `
@@ -91,7 +92,7 @@ export const FooterLinksPage = Styled.div`
         flex-direction:column;
     }
 `
-export const FooterLink = Styled.a`
+export const FooterLink = Styled(LinkR)`
     color:#fff;
     text-transform:uppercase;
     letter-spacing:.2rem;

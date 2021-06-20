@@ -29,8 +29,8 @@ function Header() {
                         pricing
                     </NavItem>
                 </NavMenu>
-                <NavBtnWrapper>
-                    <GlobalBtn />
+                <NavBtnWrapper >
+                    <GlobalBtn href="#"/>
                 </NavBtnWrapper>
             </Nav>
         </NavContainer>

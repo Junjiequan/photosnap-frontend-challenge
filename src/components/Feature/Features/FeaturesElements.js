@@ -2,12 +2,13 @@ import styled from 'styled-components';
 
 
 export const FeaturesContainer = styled.div`
-    margin:12rem 2rem;
+    margin:10.8rem 2rem;
     display:flex;
     justify-content:center;
 `
 export const FeaturesWrapper = styled.div`
     display:flex;
+    max-width:1200px;
     flex-wrap:wrap;
     justify-content:center;
     @media screen and (max-width:768px){
@@ -16,7 +17,7 @@ export const FeaturesWrapper = styled.div`
 `
 export const FeaturesItem = styled.div`
     display:flex;
-    margin:0 1.5rem;
+    margin:5.2rem 1.5rem;
     flex-direction: column;
     align-items:center;
     height:23.6rem;

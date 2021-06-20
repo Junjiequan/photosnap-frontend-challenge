@@ -29,7 +29,7 @@ function Footer() {
             <FooterWrapper>
                 <FooterLeftSection>
                     <FooterLinks>
-                        <FooterLogoLink><FooterLogo src={logoImg} alt="photosnap logo" /></FooterLogoLink>
+                        <FooterLogoLink to="/"><FooterLogo src={logoImg} alt="photosnap logo" /></FooterLogoLink>
                         <FooterSocialIcons>
                             <Link href="https://facebook.com" target="_blank" rel={rel}><Icon src={faceBook} /></Link>
                             <Link href="https://instagram.com" target="_blank" rel={rel}><Icon src={instagram} /></Link>
@@ -39,10 +39,10 @@ function Footer() {
                         </FooterSocialIcons>
                     </FooterLinks>
                     <FooterLinksPage>
-                        <FooterLink href="#">home</FooterLink>
-                        <FooterLink href="#">stories</FooterLink>
-                        <FooterLink href="#">features</FooterLink>
-                        <FooterLink href="#">pricing</FooterLink>
+                        <FooterLink to="/" >home</FooterLink>
+                        <FooterLink to="/stories" >stories</FooterLink>
+                        <FooterLink to="/features" >features</FooterLink>
+                        <FooterLink to="/pricing" >pricing</FooterLink>
                     </FooterLinksPage>
                 </FooterLeftSection>
                 <FooterRightSection>

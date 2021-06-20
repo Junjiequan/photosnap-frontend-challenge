@@ -20,5 +20,23 @@ export const FeaturesData = [
         alt:"social media icon",
         title:"Available to Embed",
         desc:"Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube videos, Google Maps, and more. "
-    }
+    },
+    {
+        icon:icon3,
+        alt:"social media icon",
+        title:"Available to Embed",
+        desc:"Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube videos, Google Maps, and more. "
+    },
+    {
+        icon:icon3,
+        alt:"social media icon",
+        title:"Available to Embed",
+        desc:"Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube videos, Google Maps, and more. "
+    },
+    {
+        icon:icon3,
+        alt:"social media icon",
+        title:"Available to Embed",
+        desc:"Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube videos, Google Maps, and more. "
+    },
 ]
