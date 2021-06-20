@@ -40,7 +40,7 @@ export const HeroDescription = styled.div`
         margin:auto 0;
         width:6px;
         top:0;bottom:0;left:0;
-        height:45%;
+        height:12.8rem;
         background:linear-gradient(to bottom, rgba(90, 119, 255, 1),rgba(188, 113, 152, 1),rgba(255, 197, 147, 1));
     }
     @media screen and (max-width:375px){
@@ -65,7 +65,6 @@ export const HeroH1 = styled.h1`
 `
 export const HeroP = styled.p`
     margin-top:2.1rem;
-    margin-bottom:4.8rem;
     opacity:.6;
     font-size:1.5rem;
     line-height:2.5rem;
