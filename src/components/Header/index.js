@@ -22,10 +22,10 @@ function Header() {
                     <NavItem to="/stories">
                         stories
                     </NavItem>
-                    <NavItem>
+                    <NavItem to="/features">
                         features
                     </NavItem>
-                    <NavItem>
+                    <NavItem to="/pricing">
                         pricing
                     </NavItem>
                 </NavMenu>
