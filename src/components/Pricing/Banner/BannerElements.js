@@ -13,7 +13,7 @@ export const BannerContainer = styled.div`
     height:28rem;
 `
 export const BannerWrapper = styled.div`
-    max-width:1440px;
+    max-width:1100px;
     width:100%;
     display:flex;
     align-items:center;

@@ -8,16 +8,16 @@ export const FeaturesContainer = styled.div`
 `
 export const FeaturesWrapper = styled.div`
     display:flex;
-    max-width:1200px;
+    max-width:1100px;
     flex-wrap:wrap;
-    justify-content:center;
+    justify-content:space-between;
     @media screen and (max-width:768px){
         flex-direction:column;
     }
 `
 export const FeaturesItem = styled.div`
     display:flex;
-    margin:5.2rem 1.5rem;
+    margin:5.2rem 0;
     flex-direction: column;
     align-items:center;
     height:23.6rem;

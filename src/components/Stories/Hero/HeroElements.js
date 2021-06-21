@@ -84,7 +84,6 @@ export const HeroP = styled.p`
 `
 
 export const HeroImgWrapper = styled.div`
-    width:100%;
     height:65rem;
     display:none;
     @media screen and (max-width:767px){

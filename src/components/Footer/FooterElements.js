@@ -11,7 +11,7 @@ export const FooterWrapper = Styled.div`
     display:flex;
     justify-content:space-between;
     align-items:center;
-    max-width:1440px;
+    max-width:1100px;
     width:100%;
     color:#fff;
     font-size:1.2rem;

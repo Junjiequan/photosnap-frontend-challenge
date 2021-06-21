@@ -49,7 +49,7 @@ export const HeroDescription = styled.div`
         top:5px;bottom:100%;left:3.5rem;
         height:6px;
         background:linear-gradient(to bottom, rgba(90, 119, 255, 1),rgba(188, 113, 152, 1),rgba(255, 197, 147, 1));
-    }
+        }
     }
 `
 export const HeroH1 = styled.h1`

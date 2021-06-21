@@ -26,7 +26,7 @@ export const Nav = styled.div`
     align-items:center;
     margin:0 3.5rem;
     width:100%;
-    max-width:1440px;
+    max-width:1100px;
     font-size:1.2rem;
     font-weight:700;
 `
