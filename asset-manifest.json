@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/photosnap-frontend-challenge/static/js/main.de5f2f74.chunk.js",
-    "main.js.map": "/photosnap-frontend-challenge/static/js/main.de5f2f74.chunk.js.map",
+    "main.js": "/photosnap-frontend-challenge/static/js/main.bc2d28f6.chunk.js",
+    "main.js.map": "/photosnap-frontend-challenge/static/js/main.bc2d28f6.chunk.js.map",
     "runtime-main.js": "/photosnap-frontend-challenge/static/js/runtime-main.01ef5a93.js",
     "runtime-main.js.map": "/photosnap-frontend-challenge/static/js/runtime-main.01ef5a93.js.map",
-    "static/js/2.85af74b9.chunk.js": "/photosnap-frontend-challenge/static/js/2.85af74b9.chunk.js",
-    "static/js/2.85af74b9.chunk.js.map": "/photosnap-frontend-challenge/static/js/2.85af74b9.chunk.js.map",
+    "static/js/2.2dea02c4.chunk.js": "/photosnap-frontend-challenge/static/js/2.2dea02c4.chunk.js",
+    "static/js/2.2dea02c4.chunk.js.map": "/photosnap-frontend-challenge/static/js/2.2dea02c4.chunk.js.map",
     "index.html": "/photosnap-frontend-challenge/index.html",
-    "static/js/2.85af74b9.chunk.js.LICENSE.txt": "/photosnap-frontend-challenge/static/js/2.85af74b9.chunk.js.LICENSE.txt",
+    "static/js/2.2dea02c4.chunk.js.LICENSE.txt": "/photosnap-frontend-challenge/static/js/2.2dea02c4.chunk.js.LICENSE.txt",
     "static/media/18-days-voyage.293feb72.jpg": "/photosnap-frontend-challenge/static/media/18-days-voyage.293feb72.jpg",
     "static/media/architecturals.95169c95.jpg": "/photosnap-frontend-challenge/static/media/architecturals.95169c95.jpg",
     "static/media/beautiful-stories.c53d42be.jpg": "/photosnap-frontend-challenge/static/media/beautiful-stories.c53d42be.jpg",
@@ -47,7 +47,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.01ef5a93.js",
-    "static/js/2.85af74b9.chunk.js",
-    "static/js/main.de5f2f74.chunk.js"
+    "static/js/2.2dea02c4.chunk.js",
+    "static/js/main.bc2d28f6.chunk.js"
   ]
 }
