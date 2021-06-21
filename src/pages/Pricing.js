@@ -1,4 +1,3 @@
-import React from 'react'
 import Hero from '../components/Pricing/Hero'
 import Price from '../components/Pricing/Price'
 import Compare from '../components/Pricing/Compare'

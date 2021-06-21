@@ -1,4 +1,3 @@
-import React from 'react'
 import Hero from '../components/Stories/Hero'
 import Gallery from '../components/Stories/Gallery'
 import { galleryCollections } from '../components/Stories/Gallery/GalleryData'

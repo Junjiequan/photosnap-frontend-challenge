@@ -1,4 +1,3 @@
-import React from 'react'
 import Hero from '../components/Home/Hero'
 import Main from '../components/Home/Main'
 import Gallery from '../components/Home/Gallery'
