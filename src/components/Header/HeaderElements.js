@@ -1,5 +1,5 @@
 import styled, { keyframes } from 'styled-components'
-import { Link as LinkR } from 'react-router-dom'
+import { Link as LinkR, NavLink } from 'react-router-dom'
 
 const animation = {
     flash: keyframes`
@@ -47,7 +47,7 @@ export const NavMenu = styled.div`
         display:none;
     }
 `
-export const NavItem = styled(LinkR)`
+export const NavItem = styled(NavLink)`
     z-index:2;
     color:#000;
     margin:0 2rem;
@@ -62,6 +62,9 @@ export const NavItem = styled(LinkR)`
     padding-left:.3rem;
     &:hover{
         animation: ${animation.flash} .6s ease-in 1;
+        border-left: 3px solid rgba(90, 119, 255, 1);
+    }
+    &.${props => props.activeClassName}{
         border-left: 3px solid rgba(90, 119, 255, 1);
     }
 

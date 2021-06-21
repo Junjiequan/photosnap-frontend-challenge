@@ -8,7 +8,7 @@ import{
     HeroImgWrapper,
     HeroImg,
 } from './HeroElements';
-import  heroImg  from '../../../assets/features/desktop/hero.jpg';
+import  heroImg  from '../../../assets/pricing/desktop/hero.jpg';
 
 function Hero() {
 

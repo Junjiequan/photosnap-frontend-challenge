@@ -19,13 +19,13 @@ function Header() {
                     <NavLogo src={logoImg} alt="photosnap logo" />
                 </NavLogoLink>
                 <NavMenu>
-                    <NavItem to="/stories">
+                    <NavItem to="/stories" activeClassName="active">
                         stories
                     </NavItem>
-                    <NavItem to="/features">
+                    <NavItem to="/features" activeClassName="active">
                         features
                     </NavItem>
-                    <NavItem to="/pricing">
+                    <NavItem to="/pricing" activeClassName="active">
                         pricing
                     </NavItem>
                 </NavMenu>
