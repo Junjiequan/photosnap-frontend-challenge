@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/photosnap-frontend-challenge/static/js/main.841835c9.chunk.js",
-    "main.js.map": "/photosnap-frontend-challenge/static/js/main.841835c9.chunk.js.map",
+    "main.js": "/photosnap-frontend-challenge/static/js/main.31026708.chunk.js",
+    "main.js.map": "/photosnap-frontend-challenge/static/js/main.31026708.chunk.js.map",
     "runtime-main.js": "/photosnap-frontend-challenge/static/js/runtime-main.01ef5a93.js",
     "runtime-main.js.map": "/photosnap-frontend-challenge/static/js/runtime-main.01ef5a93.js.map",
     "static/js/2.953d0260.chunk.js": "/photosnap-frontend-challenge/static/js/2.953d0260.chunk.js",
@@ -12,11 +12,15 @@
     "static/media/architecturals.95169c95.jpg": "/photosnap-frontend-challenge/static/media/architecturals.95169c95.jpg",
     "static/media/beautiful-stories.c53d42be.jpg": "/photosnap-frontend-challenge/static/media/beautiful-stories.c53d42be.jpg",
     "static/media/behind-the-waves.b653cb4d.jpg": "/photosnap-frontend-challenge/static/media/behind-the-waves.b653cb4d.jpg",
+    "static/media/bg-beta.31d5fc31.jpg": "/photosnap-frontend-challenge/static/media/bg-beta.31d5fc31.jpg",
+    "static/media/boost-exposure.1e05bf1c.svg": "/photosnap-frontend-challenge/static/media/boost-exposure.1e05bf1c.svg",
     "static/media/calm-waters.4d904a43.jpg": "/photosnap-frontend-challenge/static/media/calm-waters.4d904a43.jpg",
     "static/media/cityscapes.f5cf644b.jpg": "/photosnap-frontend-challenge/static/media/cityscapes.f5cf644b.jpg",
     "static/media/create-and-share.c2900517.jpg": "/photosnap-frontend-challenge/static/media/create-and-share.c2900517.jpg",
+    "static/media/custom-domain.40b46c11.svg": "/photosnap-frontend-challenge/static/media/custom-domain.40b46c11.svg",
     "static/media/dark-forest.cd773d1c.jpg": "/photosnap-frontend-challenge/static/media/dark-forest.cd773d1c.jpg",
     "static/media/designed-for-everyone.70f5fa4c.jpg": "/photosnap-frontend-challenge/static/media/designed-for-everyone.70f5fa4c.jpg",
+    "static/media/drag-drop.7716476b.svg": "/photosnap-frontend-challenge/static/media/drag-drop.7716476b.svg",
     "static/media/embed.78c81ce3.svg": "/photosnap-frontend-challenge/static/media/embed.78c81ce3.svg",
     "static/media/facebook.9a5fee20.svg": "/photosnap-frontend-challenge/static/media/facebook.9a5fee20.svg",
     "static/media/hero.2098813b.jpg": "/photosnap-frontend-challenge/static/media/hero.2098813b.jpg",
@@ -43,6 +47,6 @@
   "entrypoints": [
     "static/js/runtime-main.01ef5a93.js",
     "static/js/2.953d0260.chunk.js",
-    "static/js/main.841835c9.chunk.js"
+    "static/js/main.31026708.chunk.js"
   ]
 }
