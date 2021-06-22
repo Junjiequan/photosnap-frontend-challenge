@@ -11,6 +11,26 @@ export const BannerContainer = styled.div`
     background-repeat:no-repeat;
     background-size:cover;
     height:28rem;
+    position:relative;
+    &::before{
+        position:absolute;
+        content:'';
+        display:flex;
+        align-items:center;
+        margin:auto 0;
+        width:6px;
+        top:0;bottom:0;left:0;
+        height:100%;
+        background:linear-gradient(to bottom, rgba(90, 119, 255, 1),rgba(188, 113, 152, 1),rgba(255, 197, 147, 1));
+    }
+    @media screen and (max-width:375px){
+        &::before{
+        width:12.8rem;
+        top:5px;bottom:100%;left:3.5rem;
+        height:6px;
+        background:linear-gradient(to bottom, rgba(90, 119, 255, 1),rgba(188, 113, 152, 1),rgba(255, 197, 147, 1));
+        }
+    }
 `
 export const BannerWrapper = styled.div`
     max-width:1100px;

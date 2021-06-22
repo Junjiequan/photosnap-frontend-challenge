@@ -50,7 +50,7 @@ export const NavMenu = styled.div`
 export const NavItem = styled(NavLink)`
     z-index:2;
     color:#000;
-    margin:0 2rem;
+    margin:0 1.5rem;
     text-transform:uppercase;
     letter-spacing:.2rem;
     cursor:pointer;
@@ -58,23 +58,39 @@ export const NavItem = styled(NavLink)`
     mask-position:0;
     mask-size:400px;
     mask-image: linear-gradient(to right, rgba(0,0,0,1) 50%, rgba(0,0,0,0.2));
-    border-left: 3px solid white;
-    padding-left:.3rem;
+    padding-left:1rem;
+    position:relative;
+    &::before{
+        content:'';
+        position:absolute;
+        display:flex;
+        width:3px;
+        height:0;
+        align-items:center;
+        top:0;bottom:0;
+        margin:auto 0;
+        background:rgba(90, 119, 255, 1);
+        transform:translateX(-7px);
+        transition:height .3s linear;
+    }
     &:hover{
-        animation: ${animation.flash} .6s ease-in 1;
-        border-left: 3px solid rgba(90, 119, 255, 1);
+        animation: ${animation.flash} .8s ease-in 1;
+    }
+    &:hover:before{
+        height:80%;
     }
     &.${props => props.activeClassName}{
-        border-left: 3px solid rgba(90, 119, 255, 1);
+        &::before{
+            height:80%;
+        }
     }
-
+    &:focus-visible:before{
+        height:80%;
+    }
 `
 export const NavBtnWrapper = styled.div`
     display:block;
-    @media screen and (max-width:767px){
+    @media screen and (max-width:768px){
         display:none;
     }
-`
-export const NavLinks = styled.div`
-
 `
