@@ -3,7 +3,7 @@ import bannerBG from '../../../assets/shared/desktop/bg-beta.jpg'
 
 
 
-export const BannerContainer = styled.div`
+export const BannerContainer = styled.section`
     display:flex;
     justify-content:center;
     align-items:center;

@@ -69,7 +69,7 @@ const planHighlight ={
     `
 }
 
-export const PriceContainer = styled.div`
+export const PriceContainer = styled.section`
     display:flex;
     justify-content:center;
     margin-top:12rem;

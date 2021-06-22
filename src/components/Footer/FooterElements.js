@@ -1,7 +1,7 @@
 import Styled from 'styled-components';
 import { Link as LinkR } from 'react-router-dom';
 
-export const FooterContainer = Styled.section`
+export const FooterContainer = Styled.footer`
     display:flex;
     background:#000;
     justify-content:center;

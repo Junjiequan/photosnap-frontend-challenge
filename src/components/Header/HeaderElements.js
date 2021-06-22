@@ -10,7 +10,7 @@ const animation = {
     `
 }
 
-export const NavContainer = styled.section`
+export const NavContainer = styled.header`
     background:#fff;
     position:sticky;
     display:flex;

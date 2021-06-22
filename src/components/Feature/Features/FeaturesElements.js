@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 
-export const FeaturesContainer = styled.div`
+export const FeaturesContainer = styled.section`
     margin:10.8rem 2rem;
     display:flex;
     justify-content:center;
