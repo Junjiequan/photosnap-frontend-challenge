@@ -8,14 +8,14 @@ const GlobalStyle = createGlobalStyle`
     *,
     *::before,
     *::after {
-    box-sizing: border-box;
+        box-sizing: border-box;
     }
 
     /* For keyboard user*/
     *:focus-visible{
-    outline: 2px dashed rgba(90, 119, 255, 1) ;
-    outline-offset: 5px ;
-    transition:all .3s ease;
+        outline: 2px dashed rgba(90, 119, 255, 1) ;
+        outline-offset: 5px ;
+        transition:all .3s ease;
     }
 
 
@@ -31,36 +31,36 @@ const GlobalStyle = createGlobalStyle`
     dl,
     dd,
     ul{
-    margin:0;
-    padding:0;
+        margin:0;
+        padding:0;
     }
 
     /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
     ul[role='list'],
     ol[role='list'],
     li {
-    list-style: none;
+        list-style: none;
     }
 
     /* Remove anchor decoration*/
     a{
-    text-decoration:none;
+        text-decoration:none;
     }
 
     /* Accessibility +  */
     .sr-only{
-    position: absolute !important; 
-    margin: -1px 0 0 -1px !important;
-    padding: 0 !important;
-    display: block !important;
-    width: 1px !important;
-    height: 1px !important;
-    font-size: 1px !important;
-    line-height: 1px !important;
-    overflow: hidden !important;
-    clip: rect(0,0,0,0) !important;
-    border: 0 !important;
-    outline: 0 !important;
+        position: absolute !important; 
+        margin: -1px 0 0 -1px !important;
+        padding: 0 !important;
+        display: block !important;
+        width: 1px !important;
+        height: 1px !important;
+        font-size: 1px !important;
+        line-height: 1px !important;
+        overflow: hidden !important;
+        clip: rect(0,0,0,0) !important;
+        border: 0 !important;
+        outline: 0 !important;
     }
 
     /* Reset button */
@@ -72,24 +72,24 @@ const GlobalStyle = createGlobalStyle`
     /* Set core root defaults */
     html,
     html:focus-within {
-    scroll-behavior: smooth;
+        scroll-behavior: smooth;
     }
 
     /* Set core body defaults */
     body {
-    min-height: 100vh;
-    text-rendering: optimizeSpeed;
-    line-height: 1.5;
-    background: hsl(0, 0%, 100%);
-    overflow-x: hidden;
-    font-family:'DM Sans','arial';
+        min-height: 100vh;
+        text-rendering: optimizeSpeed;
+        line-height: 1.5;
+        background: hsl(0, 0%, 100%);
+        overflow-x: hidden;
+        font-family:'DM Sans','arial';
     }
 
     /* Make images easier to work with */
     img,
     picture {
-    max-width: 100%;
-    display: block;
+        max-width: 100%;
+        display: block;
     }
 
     /* Inherit fonts for inputs and buttons */
@@ -98,14 +98,14 @@ const GlobalStyle = createGlobalStyle`
     textarea,
     select,
     a {
-    font: inherit;
-    color:inherit;
+        font: inherit;
+        color:inherit;
     }
 
     /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
     @media (prefers-reduced-motion: reduce) {
     html:focus-within {
-    scroll-behavior: auto;
+        scroll-behavior: auto;
     }
     
     *,

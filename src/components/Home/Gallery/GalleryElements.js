@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link as LinkR} from 'react-router-dom';
 
 
 export const GalleryGrid = styled.section`
@@ -10,7 +11,7 @@ export const GalleryGrid = styled.section`
         grid-template-columns: repeat(auto-fit,minmax(100%,1fr));
     }
 `
-export const GalleryGridItem = styled.div`
+export const GalleryGridItem = styled(LinkR)`
     background-image:url(${(bgImg)=> bgImg.bg});
     background-repeat: no-repeat;
     background-position: center;
@@ -49,10 +50,19 @@ export const GalleryGridItem = styled.div`
         width:100%;
         height:6px;
     }
+    &:focus-visible{
+        transform:translateY(-2.4rem);
+        outline:0;
+    }
+    &:focus-visible:after{
+        width:100%;
+        height:6px;
+    }
     @media screen and (max-width:767px){
         min-height:37.5rem;
         padding:0 1rem;
     }
+
 `
 export const GalleryDesc = styled.div`
     max-width:28rem;
@@ -81,8 +91,9 @@ export const GalleryP = styled.p`
     margin-bottom:3rem;
     letter-spacing:.03rem;
 `
-export const GalleryBtn = styled.a`
-    cursor:pointer;
+export const GalleryBtn = styled.span`
+    background:transparent;
+    user-select:none;
     font-size:1.2rem;
     line-height:1.5rem;
     letter-spacing:.2rem;

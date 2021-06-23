@@ -1,10 +1,10 @@
 const NavStyles = {
   bmBurgerButton: {
-    position: 'fixed',
+    position: 'absolute',
     width: '20px',
     height: '15px',
-    right: '20px',
-    top: '30px'
+    right: '-15px',
+    bottom: '0'
   },
   bmBurgerBars: {
     background: '#373a47'
@@ -50,7 +50,7 @@ const NavStyles = {
   bmOverlay: {
     width:'100%',
     left:'0',
-    top:'7.2rem',
+    top:'0',
     background: 'rgba(0, 0, 0, 0.7)'
   }
 }

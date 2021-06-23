@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link as LinkR} from 'react-router-dom';
 
 export const GlobalBtn = styled.a`
     min-width:16rem;
@@ -39,7 +40,7 @@ export const GlobalBtn = styled.a`
         min-width:100%;
     }
 `
-export const GlobalArrowBtn = styled.a`
+export const GlobalArrowBtn = styled(LinkR)`
     cursor:pointer;
     display:flex;
     position:relative;
@@ -49,6 +50,7 @@ export const GlobalArrowBtn = styled.a`
     text-transform:uppercase;
     align-items:center;
     font-size:1.2rem;
+    max-width:20rem;
     color:#fff;
     transition:all .3s ease;
     & > svg {

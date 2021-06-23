@@ -14,7 +14,7 @@ function Gallery({data}) {
         <GalleryGrid>
             {data.map((props,index)=>{
                 return(
-                    <GalleryGridItem bg={props.img} key={index}>
+                    <GalleryGridItem bg={props.img} key={index} to="/stories" onClick={()=>alert(`${props.title}`)}>
                         <GalleryDesc>
                             <GalleryDate>{props.date}</GalleryDate>
                             <GalleryH2>{props.title}</GalleryH2>

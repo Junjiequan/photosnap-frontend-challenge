@@ -10,16 +10,16 @@ import{
     MainImg,
 } from './MainElements';
 
-function Main({reversed,title,info,btnText,svgColor,img,bgWhite,textColor,btnColor}) {
+function Main({reversed,title,info,btnText,svgColor,img,bgWhite}) {
     return (
         <MainContainer reversed={reversed}>
             <MainDescWrapper bgWhite={bgWhite}>
-                <MainDescription colorWhite={textColor}>
+                <MainDescription>
                     <MainH1>{title}</MainH1>
                     <MainP>
                         {info}
                     </MainP>
-                    <MainBtn colorWhite={btnColor} >
+                    <MainBtn to="">
                         {btnText}
                         <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14">
                             <g fill="none" fillRule="evenodd" stroke={svgColor}><path d="M0 7h41.864M35.428 1l6 6-6 6"/></g>

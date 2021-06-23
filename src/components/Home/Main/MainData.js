@@ -1,5 +1,5 @@
-import mainImg2 from '../../../assets/home/desktop/beautiful-stories.jpg';
-import mainImg3 from '../../../assets/home/desktop/designed-for-everyone.jpg';
+import mainImg1 from '../../../assets/home/desktop/beautiful-stories.jpg';
+import mainImg2 from '../../../assets/home/desktop/designed-for-everyone.jpg';
 
 
 export const MainObjOne = {
@@ -9,10 +9,8 @@ export const MainObjOne = {
             text, embed maps and media from other networks. Then share your story with everyone.`,
     svgColor:'#000',
     btnText:'GET AN INVITE',
-    img:mainImg2,
+    img:mainImg1,
     bgWhite:true,
-    textColor:false,
-    btnColor:false,
 }
 export const MainObjTwo = {
     reversed:false,
@@ -21,8 +19,6 @@ export const MainObjTwo = {
             Our tool is designed for photographers of all levels, brands, businesses you name it. `,
     svgColor:'#000',
     btnText:'GET AN INVITE',
-    img:mainImg3,
+    img:mainImg2,
     bgWhite:true,
-    textColor:false,
-    btnColor:false,
 }

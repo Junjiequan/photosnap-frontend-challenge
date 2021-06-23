@@ -5,19 +5,20 @@ import { Link as LinkR, NavLink } from 'react-router-dom'
 const animation = {
     flash: keyframes`
         100%{
-            mask-position:-150%;
-            mask-size:195px;
+            mask-position:-200%;
+            mask-size:200px;
         }
     `
 }
 
 export const NavContainer = styled.header`
     background:#fff;
-    position:sticky;
+    position:absolute;
     display:flex;
     justify-content:center;
     align-items:center;
     height:7.2rem;
+    width:100%;
     top:0;
     z-index:99;
 `
@@ -72,7 +73,7 @@ export const NavItem = styled(NavLink)`
     transition:all .8s ease-in-out;
     mask-position:0;
     mask-size:400px;
-    mask-image: linear-gradient(to right, rgba(0,0,0,1) 50%, rgba(0,0,0,0.2));
+    mask-image: linear-gradient(to right, rgba(0,0,0,1) 50%, rgba(66,22,33,0.1));
     padding-left:1rem;
     position:relative;
     &::before{
@@ -89,18 +90,18 @@ export const NavItem = styled(NavLink)`
         transition:height .3s linear;
     }
     &:hover{
-        animation: ${animation.flash} .8s ease-in 1;
+        animation: ${animation.flash} 1.4s linear 1;
     }
     &:hover:before{
-        height:80%;
+        height:70%;
     }
     &.${props => props.activeClassName}{
         &::before{
-            height:80%;
+            height:70%;
         }
     }
     &:focus-visible:before{
-        height:80%;
+        height:70%;
     }
     @media screen and (max-width:767px){
         margin:1.5rem 0;

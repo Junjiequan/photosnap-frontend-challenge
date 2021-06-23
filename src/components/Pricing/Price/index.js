@@ -36,8 +36,8 @@ function Price() {
                             Recommended for new and aspiring photographers.
                         </PlanP>
                         <PlanPrice>
-                            $19.00 
-                            <PlanP >per month</PlanP>
+                            { isToggled ? `$190.00`:`$19.00`}
+                            <PlanP >{ isToggled ? `per year`:`per month`}</PlanP>
                         </PlanPrice>
                         <PlanBtn>
                             pick plan
@@ -50,8 +50,8 @@ function Price() {
                             Recommended for photography veterans and professionals.
                         </PlanP>
                         <PlanPrice>
-                            $39.00 
-                            <PlanP>per month</PlanP>
+                            { isToggled ? `$390.00`:`$39.00`}
+                            <PlanP >{ isToggled ? `per year`:`per month`}</PlanP>
                         </PlanPrice>
                         <PlanBtn highlighted={true}>
                             pick plan
@@ -60,11 +60,12 @@ function Price() {
                     <PlanBox>
                         <PlanH2>Business</PlanH2>
                         <PlanP>
-                            Additional features available such as more detailed metrics. Recommended for business owners.
+                            Additional features available such as more detailed metrics. 
+                            Recommended for business owners.
                         </PlanP>
                         <PlanPrice>
-                            $99.00 
-                            <PlanP>per month</PlanP>
+                        { isToggled ? `$990.00`:`$99.00`}
+                            <PlanP >{ isToggled ? `per year`:`per month`}</PlanP>
                         </PlanPrice>
                         <PlanBtn>
                             pick plan

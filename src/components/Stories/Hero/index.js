@@ -27,7 +27,7 @@ function Hero() {
                         The dissected plateau area, while not actually made up of geological mountains, is popularly called "mountains," 
                         especially in eastern Kentucky and West Virginia, and while the ridges are not high, the terrain is extremely rugged.
                     </HeroP>
-                    <GlobalArrowBtn left="false" border="12rem" aria-label="link to the invitation page" >
+                    <GlobalArrowBtn to="" left="false" border="12rem" aria-label="link to the invitation page" >
                         read the story
                         <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14">
                             <g fill="none" fillRule="evenodd" stroke="#fff"><path d="M0 7h41.864M35.428 1l6 6-6 6"/></g>
