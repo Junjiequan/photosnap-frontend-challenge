@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const planHighlight ={
+const plan ={
     regular:`
         display:flex;
         flex-direction:column;
@@ -136,8 +136,8 @@ export const PricePlanWrapper = styled.div`
 `
 export const PlanBox = styled.div`
     ${props => props.highlighted 
-        ? planHighlight.highlighted 
-        : planHighlight.regular
+        ? plan.highlighted 
+        : plan.regular
     };
 `
 export const PlanH2 = styled.h2`

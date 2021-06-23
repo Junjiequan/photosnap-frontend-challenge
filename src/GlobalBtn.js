@@ -33,6 +33,11 @@ export const GlobalBtn = styled.a`
         width:90%;
         box-shadow:inset 0 0 5px rgba(0,0,0,0.2);
     }
+    @media screen and (max-width:767px){
+        position:relative;
+        margin-top:4rem;
+        min-width:100%;
+    }
 `
 export const GlobalArrowBtn = styled.a`
     cursor:pointer;

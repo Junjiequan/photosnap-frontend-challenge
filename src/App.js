@@ -1,5 +1,4 @@
-import { useEffect } from 'react'
-import { HashRouter as Router, Route, Switch} from 'react-router-dom';
+import { HashRouter as Router, Route, Switch} from 'react-router-dom'
 import Header from './components/Header/'
 import Home from './pages/Home'
 import Stories from './pages/Stories'
@@ -7,21 +6,16 @@ import Features from './pages/Features'
 import Pricing from './pages/Pricing'
 import Footer from './components/Footer/'
 import GlobalStyle  from './GlobalStyle'
-import WebFont from 'webfontloader'
+import ScrollToTop from './ScrollToTop'
 
 function App() {
-  useEffect(()=>{
-    WebFont.load({
-      google:{
-        families:['DM Sans']
-      }
-    })
-  })
+
   return (
     <>
     <GlobalStyle />
     <Router basename="/">
       <Header />
+        <ScrollToTop />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/stories" component={Stories} />
