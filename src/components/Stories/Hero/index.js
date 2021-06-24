@@ -1,4 +1,5 @@
 import React from 'react';
+import  ProgressiveImage  from 'react-progressive-image'
 import{
     HeroContainer,
     HeroDescWrapper,
@@ -12,6 +13,7 @@ import{
     Span
 } from './HeroElements';
 import  heroImg  from '../../../assets/stories/desktop/moon-of-appalacia.jpg';
+import  heroImgSmall  from '../../../assets/stories/mobile/moon-of-appalacia.jpg';
 import { GlobalArrowBtn} from '../../../GlobalBtn';
 
 function Hero() {
@@ -36,7 +38,11 @@ function Hero() {
                 </HeroDescription>
             </HeroDescWrapper>
             <HeroImgWrapper>
-                <HeroImg rel="preload" src={heroImg} alt="A man looking at the occean"/>
+                <ProgressiveImage src={heroImg} placeholder={heroImgSmall}>
+                    {(src,loading)=>(
+                        <HeroImg style={{filter: loading ? 'blur(7px)' : 'blur(0)'}} src={src} alt="Some description"/>
+                    )}
+                </ProgressiveImage>
             </HeroImgWrapper>
         </HeroContainer>
     )
