@@ -1,6 +1,8 @@
 import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
+
+    /* Set default font size */
     html{
         font-size:62.5%;
     }
@@ -44,23 +46,7 @@ const GlobalStyle = createGlobalStyle`
 
     /* Remove anchor decoration*/
     a{
-        text-decoration:none;
-    }
-
-    /* Accessibility +  */
-    .sr-only{
-        position: absolute !important; 
-        margin: -1px 0 0 -1px !important;
-        padding: 0 !important;
-        display: block !important;
-        width: 1px !important;
-        height: 1px !important;
-        font-size: 1px !important;
-        line-height: 1px !important;
-        overflow: hidden !important;
-        clip: rect(0,0,0,0) !important;
-        border: 0 !important;
-        outline: 0 !important;
+        text-decoration:none ;
     }
 
     /* Reset button */

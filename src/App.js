@@ -1,3 +1,4 @@
+import React from 'react'
 import { HashRouter as Router, Route, Switch} from 'react-router-dom'
 import Header from './components/Header/'
 import Home from './pages/Home'
@@ -13,10 +14,9 @@ function App() {
   return (
     <>
     <GlobalStyle />
-    <Router basename="/">
+    <Router basename="/" >
       <Header />
-        <ScrollToTop />
-        <Switch>
+        <Switch >
           <Route exact path="/" component={Home} />
           <Route exact path="/stories" component={Stories} />
           <Route exact path="/features" component={Features} />

@@ -103,7 +103,6 @@ export const PriceYear = styled.h3`
     opacity:${({isToggled}) => isToggled?`1`:`0.3`};
 `
 export const PriceToggle = styled.button`
-    
     margin:0 3.2rem;
     width:6.4rem;
     height:3.2rem;
@@ -115,6 +114,11 @@ export const PriceToggle = styled.button`
     transition: background-color .3s ease;
     background: ${({isToggled}) => isToggled? `hsl(0, 100%, 0%)`:`hsl(0, 0%, 88%)`};
     position:relative;
+    &:focus-visible{
+        outline-offset:5px;
+        transition:all .3s ease;
+    }
+
 `
 export const ToggleBall = styled.div`
     position:absolute;

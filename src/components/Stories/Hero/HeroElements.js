@@ -4,6 +4,7 @@ import styled from 'styled-components';
 export const HeroContainer = styled.section`
     display:flex;
     width:100%;
+    padding:5rem 0;
     justify-content:center;
     position:relative;
     background-image: url(${props => props.bg});
@@ -11,6 +12,8 @@ export const HeroContainer = styled.section`
     @media screen and (max-width:767px){
         flex-direction:column-reverse;
         background-image:none;
+        padding: 0;
+        margin-top:7.2rem;
     }
 `
 export const HeroDescWrapper = styled.div`
@@ -38,7 +41,7 @@ export const HeroDescription = styled.div`
     color:#fff;
     display:flex;
     flex-direction:column;
-    max-width:38.7rem;
+    max-width:39rem;
     @media screen and (max-width:375px){
         &::before{
         width:12.8rem;
@@ -84,17 +87,16 @@ export const HeroP = styled.p`
 `
 
 export const HeroImgWrapper = styled.div`
-    height:65rem;
     display:none;
     @media screen and (max-width:767px){
         display:flex;
         position:relative;
-        max-height:29.4rem;
+        min-height:29.4rem;
+        height:100%;
         opacity:1;
     }
 `
 export const HeroImg = styled.img`
-    width:100%;
-    height:100%;
+    max-height:100%;
     object-fit: cover;
 `

@@ -5,7 +5,7 @@ export const HeroContainer = styled.section`
     display:flex;
     width:100%;
     justify-content:center;
-    max-height:49rem;
+    max-height:59rem;
     @media screen and (max-width:767px){
         flex-direction:column-reverse;
         max-height:100%;
@@ -72,7 +72,7 @@ export const HeroP = styled.p`
 
 export const HeroImgWrapper = styled.div`
     flex: 1 1 83rem;
-    height:49rem;
+    height:59rem;
     @media screen and (max-width:767px){
         flex: 0 0 auto;
         max-height:29.4rem;

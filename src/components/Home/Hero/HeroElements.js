@@ -5,8 +5,10 @@ export const HeroContainer = styled.section`
     display:flex;
     width:100%;
     justify-content:center;
+    height:65.4rem;
     @media screen and (max-width:767px){
         flex-direction:column-reverse;
+        margin-top:7.2rem;
     }
 `
 export const HeroDescWrapper = styled.div`
@@ -29,7 +31,8 @@ export const HeroDescription = styled.div`
     color:#fff;
     display:flex;
     flex-direction:column;
-    max-width:38.7rem;
+    max-width:40rem;
+    width:100%;
     &::before{
         position:absolute;
         content:'';
@@ -56,7 +59,7 @@ export const HeroH1 = styled.h1`
     letter-spacing:.4rem;
     line-height:4.8rem;
     @media screen and (max-width:767px){
-        font-size:3.2rem;
+        font-size:3rem;
         line-height:4rem;
         letter-spacing:.33rem;
     }
@@ -71,9 +74,10 @@ export const HeroP = styled.p`
 
 export const HeroImgWrapper = styled.div`
     flex: 1 1 83rem;
-    height:65rem;
+    height:66rem;
     @media screen and (max-width:767px){
         max-height:29.4rem;
+        height:auto;
     }
 `
 export const HeroImg = styled.img`
