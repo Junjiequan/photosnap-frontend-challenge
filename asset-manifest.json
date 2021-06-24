@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/photosnap-frontend-challenge/static/css/main.0d6f7a65.chunk.css",
-    "main.js": "/photosnap-frontend-challenge/static/js/main.7b591f94.chunk.js",
-    "main.js.map": "/photosnap-frontend-challenge/static/js/main.7b591f94.chunk.js.map",
+    "main.js": "/photosnap-frontend-challenge/static/js/main.33e1e63c.chunk.js",
+    "main.js.map": "/photosnap-frontend-challenge/static/js/main.33e1e63c.chunk.js.map",
     "runtime-main.js": "/photosnap-frontend-challenge/static/js/runtime-main.01ef5a93.js",
     "runtime-main.js.map": "/photosnap-frontend-challenge/static/js/runtime-main.01ef5a93.js.map",
-    "static/js/2.486ef07b.chunk.js": "/photosnap-frontend-challenge/static/js/2.486ef07b.chunk.js",
-    "static/js/2.486ef07b.chunk.js.map": "/photosnap-frontend-challenge/static/js/2.486ef07b.chunk.js.map",
+    "static/js/2.c883a4be.chunk.js": "/photosnap-frontend-challenge/static/js/2.c883a4be.chunk.js",
+    "static/js/2.c883a4be.chunk.js.map": "/photosnap-frontend-challenge/static/js/2.c883a4be.chunk.js.map",
     "index.html": "/photosnap-frontend-challenge/index.html",
     "static/css/main.0d6f7a65.chunk.css.map": "/photosnap-frontend-challenge/static/css/main.0d6f7a65.chunk.css.map",
-    "static/js/2.486ef07b.chunk.js.LICENSE.txt": "/photosnap-frontend-challenge/static/js/2.486ef07b.chunk.js.LICENSE.txt",
+    "static/js/2.c883a4be.chunk.js.LICENSE.txt": "/photosnap-frontend-challenge/static/js/2.c883a4be.chunk.js.LICENSE.txt",
     "static/media/18-days-voyage.293feb72.jpg": "/photosnap-frontend-challenge/static/media/18-days-voyage.293feb72.jpg",
     "static/media/architecturals.95169c95.jpg": "/photosnap-frontend-challenge/static/media/architecturals.95169c95.jpg",
     "static/media/beautiful-stories.c53d42be.jpg": "/photosnap-frontend-challenge/static/media/beautiful-stories.c53d42be.jpg",
@@ -19,6 +19,7 @@
     "static/media/calm-waters.4d904a43.jpg": "/photosnap-frontend-challenge/static/media/calm-waters.4d904a43.jpg",
     "static/media/check.46b060c0.svg": "/photosnap-frontend-challenge/static/media/check.46b060c0.svg",
     "static/media/cityscapes.f5cf644b.jpg": "/photosnap-frontend-challenge/static/media/cityscapes.f5cf644b.jpg",
+    "static/media/create-and-share.3fa4a048.jpg": "/photosnap-frontend-challenge/static/media/create-and-share.3fa4a048.jpg",
     "static/media/create-and-share.c2900517.jpg": "/photosnap-frontend-challenge/static/media/create-and-share.c2900517.jpg",
     "static/media/custom-domain.40b46c11.svg": "/photosnap-frontend-challenge/static/media/custom-domain.40b46c11.svg",
     "static/media/dark-forest.cd773d1c.jpg": "/photosnap-frontend-challenge/static/media/dark-forest.cd773d1c.jpg",
@@ -28,6 +29,8 @@
     "static/media/facebook.9a5fee20.svg": "/photosnap-frontend-challenge/static/media/facebook.9a5fee20.svg",
     "static/media/hero.2098813b.jpg": "/photosnap-frontend-challenge/static/media/hero.2098813b.jpg",
     "static/media/hero.9d811536.jpg": "/photosnap-frontend-challenge/static/media/hero.9d811536.jpg",
+    "static/media/hero.d39d8752.jpg": "/photosnap-frontend-challenge/static/media/hero.d39d8752.jpg",
+    "static/media/hero.e7ab9f45.jpg": "/photosnap-frontend-challenge/static/media/hero.e7ab9f45.jpg",
     "static/media/instagram.21480e89.svg": "/photosnap-frontend-challenge/static/media/instagram.21480e89.svg",
     "static/media/king-on-africa.6b019e23.jpg": "/photosnap-frontend-challenge/static/media/king-on-africa.6b019e23.jpg",
     "static/media/land-of-dreams.71a3438c.jpg": "/photosnap-frontend-challenge/static/media/land-of-dreams.71a3438c.jpg",
@@ -35,6 +38,7 @@
     "static/media/logo-white.34f3316a.svg": "/photosnap-frontend-challenge/static/media/logo-white.34f3316a.svg",
     "static/media/milky-way.10650639.jpg": "/photosnap-frontend-challenge/static/media/milky-way.10650639.jpg",
     "static/media/moon-of-appalacia.0d34b444.jpg": "/photosnap-frontend-challenge/static/media/moon-of-appalacia.0d34b444.jpg",
+    "static/media/moon-of-appalacia.9413077d.jpg": "/photosnap-frontend-challenge/static/media/moon-of-appalacia.9413077d.jpg",
     "static/media/mountains.2540b713.jpg": "/photosnap-frontend-challenge/static/media/mountains.2540b713.jpg",
     "static/media/no-limit.b8deb4d2.svg": "/photosnap-frontend-challenge/static/media/no-limit.b8deb4d2.svg",
     "static/media/pinterest.af9d6c06.svg": "/photosnap-frontend-challenge/static/media/pinterest.af9d6c06.svg",
@@ -50,8 +54,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.01ef5a93.js",
-    "static/js/2.486ef07b.chunk.js",
+    "static/js/2.c883a4be.chunk.js",
     "static/css/main.0d6f7a65.chunk.css",
-    "static/js/main.7b591f94.chunk.js"
+    "static/js/main.33e1e63c.chunk.js"
   ]
 }
