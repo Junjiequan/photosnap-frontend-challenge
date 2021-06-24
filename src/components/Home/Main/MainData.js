@@ -4,7 +4,7 @@ import mainImg2 from '../../../assets/home/desktop/designed-for-everyone.jpg';
 
 export const MainObjOne = {
     reversed:true,
-    title:'Beautiful stories every time.',
+    title:`Beautiful stories \nevery time.`,
     info:`We povide design templates to ensure your stories look terrific. Easily add photos, 
             text, embed maps and media from other networks. Then share your story with everyone.`,
     svgColor:'#000',

@@ -38,8 +38,9 @@ export const MainDescription = styled.div`
 export const MainH2 = styled.h2`
     font-size:4rem;
     text-transform:uppercase;
-    letter-spacing:.4rem;
+    letter-spacing:.42rem;
     line-height:4.8rem;
+    white-space:pre-wrap;
     @media screen and (max-width:767px){
         font-size:3.2rem;
         line-height:4rem;
