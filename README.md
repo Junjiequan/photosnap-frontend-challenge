@@ -4,6 +4,7 @@
 - [hashRouter](https://reactrouter.com/web/api/HashRouter)
 - [browserRouter](https://reactrouter.com/web/api/BrowserRouter)
 - [react-page-transition](https://github.com/Steveeeie/react-page-transition)
+- [framer-motion](https://www.framer.com/api/motion/)
 
 for lazy people: mobileMenu + burger icon pre setting suite - Example
 
