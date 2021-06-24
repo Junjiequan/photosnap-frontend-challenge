@@ -24,6 +24,7 @@ export const BannerContainer = styled.section`
         background:linear-gradient(to bottom, rgba(90, 119, 255, 1),rgba(188, 113, 152, 1),rgba(255, 197, 147, 1));
     }
     @media screen and (max-width:375px){
+        height:100%;
         &::before{
         width:12.8rem;
         top:5px;bottom:100%;left:3.5rem;
@@ -38,10 +39,9 @@ export const BannerWrapper = styled.div`
     display:flex;
     align-items:center;
     justify-content: space-between;
-    margin:0 3.5rem;
+    margin:7rem 3.5rem;
     @media screen and (max-width:650px){
-        max-height:16rem;
-        height:100%;
+        max-height:20rem;
         flex-direction:column;
         align-items:flex-start;
     }
@@ -55,6 +55,8 @@ export const BannerTitle = styled.h1`
     max-width:40rem;
     text-transform:uppercase;
     @media screen and (max-width:650px){
+        margin-bottom:2rem;
         font-size:3.2rem;
+        line-height:3.8rem;
     }
 `
