@@ -5,6 +5,8 @@
 - [browserRouter](https://reactrouter.com/web/api/BrowserRouter)
 - [react-page-transition](https://github.com/Steveeeie/react-page-transition)
 - [framer-motion](https://www.framer.com/api/motion/)
+- [react-animation](https://formidable.com/open-source/react-animations/)
+- [react-progressive-image](https://formidable.com/open-source/react-progressive-image/)
 
 for lazy people: mobileMenu + burger icon pre setting suite - Example
 
