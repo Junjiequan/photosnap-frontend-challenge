@@ -49,6 +49,8 @@ export const NavMenu = styled.div`
     justify-content:center;
     position:relative;
     @media screen and (max-width:767px){
+        outline:0;
+        border:0;
         min-width:100%;
         margin-top:3.5rem ;
         &::after{
