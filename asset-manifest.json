@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/photosnap-frontend-challenge/static/css/main.0d6f7a65.chunk.css",
-    "main.js": "/photosnap-frontend-challenge/static/js/main.33e1e63c.chunk.js",
-    "main.js.map": "/photosnap-frontend-challenge/static/js/main.33e1e63c.chunk.js.map",
+    "main.js": "/photosnap-frontend-challenge/static/js/main.84f1dba8.chunk.js",
+    "main.js.map": "/photosnap-frontend-challenge/static/js/main.84f1dba8.chunk.js.map",
     "runtime-main.js": "/photosnap-frontend-challenge/static/js/runtime-main.01ef5a93.js",
     "runtime-main.js.map": "/photosnap-frontend-challenge/static/js/runtime-main.01ef5a93.js.map",
     "static/js/2.c883a4be.chunk.js": "/photosnap-frontend-challenge/static/js/2.c883a4be.chunk.js",
@@ -56,6 +56,6 @@
     "static/js/runtime-main.01ef5a93.js",
     "static/js/2.c883a4be.chunk.js",
     "static/css/main.0d6f7a65.chunk.css",
-    "static/js/main.33e1e63c.chunk.js"
+    "static/js/main.84f1dba8.chunk.js"
   ]
 }
