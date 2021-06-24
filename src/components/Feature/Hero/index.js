@@ -26,9 +26,9 @@ function Hero() {
                 </HeroDescription>
             </HeroDescWrapper>
             <HeroImgWrapper>
-            <ProgressiveImage src={heroImg} placeholder={heroImgSmall}>
+                <ProgressiveImage src={heroImg} placeholder={heroImgSmall}>
                     {(src,loading)=>(
-                        <HeroImg style={{filter: loading ? 'blur(10px)' : 'blur(0)'}} src={src} alt="Some description"/>
+                        <HeroImg style={{filter: loading ? 'blur(20px)' : 'blur(0)'}} src={src} alt="Some description"/>
                     )}
                 </ProgressiveImage>
             </HeroImgWrapper>
