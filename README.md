@@ -3,6 +3,7 @@
 - [react-responsive](https://www.npmjs.com/package/react-responsive)
 - [hashRouter](https://reactrouter.com/web/api/HashRouter)
 - [browserRouter](https://reactrouter.com/web/api/BrowserRouter)
+- [react-page-transition](https://github.com/Steveeeie/react-page-transition)
 
 for lazy people: mobileMenu + burger icon pre setting suite - Example
 
