@@ -16,6 +16,7 @@ function App() {
     <GlobalStyle />
     <Router basename="/" >
       <Header />
+        <ScrollToTop />
         <Switch >
           <Route exact path="/" component={Home} />
           <Route exact path="/stories" component={Stories} />
