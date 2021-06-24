@@ -5,7 +5,7 @@ import { Link as LinkR, NavLink } from 'react-router-dom'
 const animation = {
     flash: keyframes`
         100%{
-            mask-position:-200%;
+            mask-position:-140%;
             mask-size:200px;
         }
     `
