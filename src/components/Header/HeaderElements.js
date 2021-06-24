@@ -36,11 +36,13 @@ export const Nav = styled.div`
 export const NavLogoLink = styled(LinkR)`
     display:flex;
     cursor:pointer;
+    max-width:16.9rem;
+    width:100%;
 `
 export const NavLogo = styled.img`
     pointer-events:none;
-    max-width:16.9rem;
-    max-height:1.6rem;
+    height:1.6rem;
+    width:17rem;
 `
 
 export const NavMenu = styled.div`

@@ -57,11 +57,13 @@ export const FooterLinks = Styled.div`
 export const FooterLogoLink = Styled(LinkR)`
     cursor:pointer;
     display:flex;
+    max-width:16.9rem;
+    width:100%;
 `
 export const FooterLogo = Styled.img`
     pointer-events:none;
-    max-width:16.9rem;
-    max-height:1.6rem;
+    height:1.6rem;
+    width:17rem;
 `
 export const Link = Styled.a`
     cursor:pointer;
@@ -74,7 +76,8 @@ export const Link = Styled.a`
 `
 export const Icon = Styled.img`
     pointer-events:none;
-    width:100%;
+    width:2rem;
+    height:2rem;
     filter:brightness(6);
     transition:filter .3s ease;
     ${Link}:hover & {
