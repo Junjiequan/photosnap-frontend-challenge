@@ -86,7 +86,7 @@ export const PriceToggleWrapper = styled.div`
     display:flex;
     margin-bottom:4.8rem;
 `
-export const PriceMonth = styled.h3`
+export const PriceMonth = styled.span`
     user-select: none;
     font-size:1.8rem;
     line-height:2.5rem;
@@ -94,7 +94,7 @@ export const PriceMonth = styled.h3`
     transition:all .3s ease;
     opacity:${({isToggled}) => isToggled?`0.3`:`1`};
 `
-export const PriceYear = styled.h3`
+export const PriceYear = styled.span`
     user-select: none;
     font-size:1.8rem;
     line-height:2.5rem;

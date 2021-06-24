@@ -30,11 +30,11 @@ function Footer() {
                     <FooterLinks>
                         <FooterLogoLink to="/"><FooterLogo src={logoImg} alt="photosnap logo" /></FooterLogoLink>
                         <FooterSocialIcons>
-                            <Link href="https://facebook.com" target="_blank" rel={rel}><Icon src={faceBook} /></Link>
-                            <Link href="https://instagram.com" target="_blank" rel={rel}><Icon src={instagram} /></Link>
-                            <Link href="https://youtube.com" target="_blank" rel={rel}><Icon src={youtube} /></Link>
-                            <Link href="https://pinterest.com" target="_blank" rel={rel}><Icon src={pinterest} /></Link>
-                            <Link href="https://twitter.com" target="_blank" rel={rel}><Icon src={twitter} /></Link>
+                            <Link href="https://facebook.com" target="_blank" rel={rel}><Icon src={faceBook} alt="facebook-icon"/></Link>
+                            <Link href="https://instagram.com" target="_blank" rel={rel}><Icon src={instagram} alt="instagram-icon"/></Link>
+                            <Link href="https://youtube.com" target="_blank" rel={rel}><Icon src={youtube} alt="youtube-icon"/></Link>
+                            <Link href="https://pinterest.com" target="_blank" rel={rel}><Icon src={pinterest} alt="pinterest-icon"/></Link>
+                            <Link href="https://twitter.com" target="_blank" rel={rel}><Icon src={twitter} alt="twitter-icon"/></Link>
                         </FooterSocialIcons>
                     </FooterLinks>
                     <FooterLinksPage>
@@ -45,7 +45,7 @@ function Footer() {
                     </FooterLinksPage>
                 </FooterLeftSection>
                 <FooterRightSection>
-                    <GlobalArrowBtn to="" left= "false" border="10.5rem" aria-label="link to the invitation page">
+                    <GlobalArrowBtn to="" data-left-align={true} data-border-width="11rem" aria-label="link to the invitation page">
                         GET AN INVITE
                         <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14">
                             <g fill="none" fillRule="evenodd" stroke="#fff"><path d="M0 7h41.864M35.428 1l6 6-6 6"/></g>

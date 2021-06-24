@@ -7,13 +7,13 @@ export const HeroContainer = styled.section`
     padding:5rem 0;
     justify-content:center;
     position:relative;
-    background-image: url(${props => props.bg});
+    background-image: url(${props => props["data-bg"]});
     background-size:cover;
+    margin-top:7.2rem;
     @media screen and (max-width:767px){
         flex-direction:column-reverse;
         background-image:none;
         padding: 0;
-        margin-top:7.2rem;
     }
 `
 export const HeroDescWrapper = styled.div`

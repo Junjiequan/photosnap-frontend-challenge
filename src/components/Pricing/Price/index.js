@@ -64,7 +64,7 @@ function Price() {
             <PriceWrapper>
                 <PriceToggleWrapper>
                     <PriceMonth isToggled={isToggled}>Monthly</PriceMonth>
-                    <PriceToggle  isToggled={isToggled} onClick={toggle}>
+                    <PriceToggle  isToggled={isToggled} onClick={toggle} aria-label="price plan toggle button">
                         <ToggleBall isToggled={isToggled}></ToggleBall>
                     </PriceToggle>
                     <PriceYear isToggled={isToggled}>Yearly</PriceYear>

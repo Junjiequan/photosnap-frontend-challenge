@@ -24,7 +24,7 @@ function Hero() {
                 </HeroDescription>
             </HeroDescWrapper>
             <HeroImgWrapper>
-                <HeroImg src={heroImg} alt="A man looking at the occean"/>
+                <HeroImg rel="preload" src={heroImg} alt="A man looking at the occean"/>
             </HeroImgWrapper>
         </HeroContainer>
     )

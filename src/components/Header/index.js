@@ -42,7 +42,7 @@ function Header() {
                         </NavItem>
                     </NavMenu>
                     <NavBtnWrapper >
-                        <GlobalBtn onClick={() => closeMenu()} href="#"/>
+                        <GlobalBtn onClick={() => closeMenu()} href="#" aria-label="to invitation page"/>
                     </NavBtnWrapper>
                 </Menu>
             </Nav>
@@ -67,7 +67,7 @@ function Header() {
                     </NavItem>
                 </NavMenu>
                 <NavBtnWrapper >
-                    <GlobalBtn href="#"/>
+                    <GlobalBtn href="#" aria-label="to invitation page"/>
                 </NavBtnWrapper>
             </Nav>
         </NavContainer>

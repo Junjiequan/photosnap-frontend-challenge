@@ -13,7 +13,7 @@ function Gallery({data}) {
         <GalleryGrid>
             {data.map((props,index)=>{
                 return(
-                    <GalleryGridItem bg={props.img} key={index} to="/stories">
+                    <GalleryGridItem data-bg={props.img} key={index} to="/stories">
                         <GalleryDesc>
                             <GalleryH2>{props.title}</GalleryH2>
                             <GalleryP>{props.author}</GalleryP>

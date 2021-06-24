@@ -17,7 +17,7 @@ import { GlobalArrowBtn} from '../../../GlobalBtn';
 function Hero() {
 
     return (
-        <HeroContainer bg={heroImg}>
+        <HeroContainer data-bg={heroImg}>
             <HeroDescWrapper >
                 <HeroDescription>
                     <HeroInfo>last month's featured story</HeroInfo>
@@ -27,7 +27,7 @@ function Hero() {
                         The dissected plateau area, while not actually made up of geological mountains, is popularly called "mountains," 
                         especially in eastern Kentucky and West Virginia, and while the ridges are not high, the terrain is extremely rugged.
                     </HeroP>
-                    <GlobalArrowBtn to="" left="false" border="12rem" aria-label="link to the invitation page" >
+                    <GlobalArrowBtn to="" data-left-align={true} data-border-width="13.2rem" aria-label="link to the invitation page" >
                         read the story
                         <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14">
                             <g fill="none" fillRule="evenodd" stroke="#fff"><path d="M0 7h41.864M35.428 1l6 6-6 6"/></g>
@@ -36,7 +36,7 @@ function Hero() {
                 </HeroDescription>
             </HeroDescWrapper>
             <HeroImgWrapper>
-                <HeroImg src={heroImg} alt="A man looking at the occean"/>
+                <HeroImg rel="preload" src={heroImg} alt="A man looking at the occean"/>
             </HeroImgWrapper>
         </HeroContainer>
     )

@@ -67,13 +67,13 @@ export const GlobalArrowBtn = styled(LinkR)`
         display:block;
         width:0;
         height:1px;
-        left:${({left})=> left ? `0` : `7.5rem`};
+        left:${(props=> props["data-left-align"] ? `0` : `7.3rem`)};
         bottom:-.1rem;
         background:#fff;
         transition: width .3s ease;
     }
     &:hover:after{
-        width:${(props => props.border)}
+        width:${(props => props["data-border-width"])}
     }
     &:hover > svg{
         transform:translateX(2rem);

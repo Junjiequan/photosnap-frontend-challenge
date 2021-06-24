@@ -12,7 +12,7 @@ export const GalleryGrid = styled.section`
     }
 `
 export const GalleryGridItem = styled(LinkR)`
-    background-image:url(${(bgImg)=> bgImg.bg});
+    background-image:url(${(props=> props["data-bg"])});
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

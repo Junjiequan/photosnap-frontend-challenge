@@ -3,7 +3,7 @@ import { Link as LinkR} from 'react-router-dom'
 
 export const MainContainer = styled.section`
     display:flex;
-    flex-direction:${({reversed}) => reversed ? `row-reverse`: `none`};
+    flex-direction:${(props => props["data-reversed"]? `row-reverse`: `none`)};
     width:100%;
     justify-content:center;
     @media screen and (max-width:767px){
@@ -35,7 +35,7 @@ export const MainDescription = styled.div`
         max-width:31.8rem;
     }
 `
-export const MainH1 = styled.h1`
+export const MainH2 = styled.h2`
     font-size:4rem;
     text-transform:uppercase;
     letter-spacing:.4rem;
@@ -56,15 +56,17 @@ export const MainBtn = styled(LinkR)`
     cursor:pointer;
     display:flex;
     position:relative;
-    max-width:18rem;
+    max-width:22rem;
     margin-top:4.8rem;
     letter-spacing:.2rem;
     line-height:1.5rem;
     justify-content:flex-start;
     align-items:center;
     font-size:1.2rem;
+    font-weight:700;
     color:#000;
     transition:all .3s ease;
+    text-transform:uppercase;
     & > svg {
         margin-left:1.8rem;
         transition:transform .3s ease-in;
@@ -84,7 +86,7 @@ export const MainBtn = styled(LinkR)`
         transition: width .3s ease;
     }
     &:hover:after{
-        width:10.5rem;
+        width:14.4rem;
     }
     &:hover > svg{
         transform:translateX(2rem);

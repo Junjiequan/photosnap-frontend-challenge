@@ -6,9 +6,9 @@ export const HeroContainer = styled.section`
     width:100%;
     justify-content:center;
     height:65.4rem;
+    margin-top:7.2rem;
     @media screen and (max-width:767px){
         flex-direction:column-reverse;
-        margin-top:7.2rem;
     }
 `
 export const HeroDescWrapper = styled.div`

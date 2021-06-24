@@ -8,9 +8,10 @@ export const MainObjOne = {
     info:`We povide design templates to ensure your stories look terrific. Easily add photos, 
             text, embed maps and media from other networks. Then share your story with everyone.`,
     svgColor:'#000',
-    btnText:'GET AN INVITE',
+    btnText:'view the stories',
     img:mainImg1,
     bgWhite:true,
+    alt:"first main image"
 }
 export const MainObjTwo = {
     reversed:false,
@@ -18,7 +19,8 @@ export const MainObjTwo = {
     info:`Photosnap can help you create stories that resonate with your audience. 
             Our tool is designed for photographers of all levels, brands, businesses you name it. `,
     svgColor:'#000',
-    btnText:'GET AN INVITE',
+    btnText:'view the stories',
     img:mainImg2,
     bgWhite:true,
+    alt:"second main image"
 }

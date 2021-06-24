@@ -3,23 +3,23 @@ import{
     MainContainer,
     MainDescWrapper,
     MainDescription,
-    MainH1,
+    MainH2,
     MainP,
     MainBtn,
     MainImgWrapper,
     MainImg,
 } from './MainElements';
 
-function Main({reversed,title,info,btnText,svgColor,img,bgWhite}) {
+function Main({reversed,title,info,btnText,svgColor,img,bgWhite,alt}) {
     return (
-        <MainContainer reversed={reversed}>
+        <MainContainer data-reversed={reversed}>
             <MainDescWrapper bgWhite={bgWhite}>
                 <MainDescription>
-                    <MainH1>{title}</MainH1>
+                    <MainH2>{title}</MainH2>
                     <MainP>
                         {info}
                     </MainP>
-                    <MainBtn to="">
+                    <MainBtn to="/stories">
                         {btnText}
                         <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14">
                             <g fill="none" fillRule="evenodd" stroke={svgColor}><path d="M0 7h41.864M35.428 1l6 6-6 6"/></g>
@@ -28,7 +28,7 @@ function Main({reversed,title,info,btnText,svgColor,img,bgWhite}) {
                 </MainDescription>
             </MainDescWrapper>
             <MainImgWrapper>
-                <MainImg src={img} />
+                <MainImg rel="preload" src={img} alt={alt}/>
             </MainImgWrapper>
         </MainContainer>
     )
