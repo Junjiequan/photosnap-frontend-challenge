@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.js": "/photosnap-frontend-challenge/static/js/main.bb4d3712.chunk.js",
-    "main.js.map": "/photosnap-frontend-challenge/static/js/main.bb4d3712.chunk.js.map",
+    "main.css": "/photosnap-frontend-challenge/static/css/main.0d6f7a65.chunk.css",
+    "main.js": "/photosnap-frontend-challenge/static/js/main.16259592.chunk.js",
+    "main.js.map": "/photosnap-frontend-challenge/static/js/main.16259592.chunk.js.map",
     "runtime-main.js": "/photosnap-frontend-challenge/static/js/runtime-main.01ef5a93.js",
     "runtime-main.js.map": "/photosnap-frontend-challenge/static/js/runtime-main.01ef5a93.js.map",
-    "static/js/2.6a6a3f85.chunk.js": "/photosnap-frontend-challenge/static/js/2.6a6a3f85.chunk.js",
-    "static/js/2.6a6a3f85.chunk.js.map": "/photosnap-frontend-challenge/static/js/2.6a6a3f85.chunk.js.map",
+    "static/js/2.3aa2e60f.chunk.js": "/photosnap-frontend-challenge/static/js/2.3aa2e60f.chunk.js",
+    "static/js/2.3aa2e60f.chunk.js.map": "/photosnap-frontend-challenge/static/js/2.3aa2e60f.chunk.js.map",
     "index.html": "/photosnap-frontend-challenge/index.html",
-    "static/js/2.6a6a3f85.chunk.js.LICENSE.txt": "/photosnap-frontend-challenge/static/js/2.6a6a3f85.chunk.js.LICENSE.txt",
+    "static/css/main.0d6f7a65.chunk.css.map": "/photosnap-frontend-challenge/static/css/main.0d6f7a65.chunk.css.map",
+    "static/js/2.3aa2e60f.chunk.js.LICENSE.txt": "/photosnap-frontend-challenge/static/js/2.3aa2e60f.chunk.js.LICENSE.txt",
     "static/media/18-days-voyage.293feb72.jpg": "/photosnap-frontend-challenge/static/media/18-days-voyage.293feb72.jpg",
     "static/media/architecturals.95169c95.jpg": "/photosnap-frontend-challenge/static/media/architecturals.95169c95.jpg",
     "static/media/beautiful-stories.c53d42be.jpg": "/photosnap-frontend-challenge/static/media/beautiful-stories.c53d42be.jpg",
@@ -15,6 +17,7 @@
     "static/media/bg-beta.31d5fc31.jpg": "/photosnap-frontend-challenge/static/media/bg-beta.31d5fc31.jpg",
     "static/media/boost-exposure.1e05bf1c.svg": "/photosnap-frontend-challenge/static/media/boost-exposure.1e05bf1c.svg",
     "static/media/calm-waters.4d904a43.jpg": "/photosnap-frontend-challenge/static/media/calm-waters.4d904a43.jpg",
+    "static/media/check.46b060c0.svg": "/photosnap-frontend-challenge/static/media/check.46b060c0.svg",
     "static/media/cityscapes.f5cf644b.jpg": "/photosnap-frontend-challenge/static/media/cityscapes.f5cf644b.jpg",
     "static/media/create-and-share.c2900517.jpg": "/photosnap-frontend-challenge/static/media/create-and-share.c2900517.jpg",
     "static/media/custom-domain.40b46c11.svg": "/photosnap-frontend-challenge/static/media/custom-domain.40b46c11.svg",
@@ -47,7 +50,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.01ef5a93.js",
-    "static/js/2.6a6a3f85.chunk.js",
-    "static/js/main.bb4d3712.chunk.js"
+    "static/js/2.3aa2e60f.chunk.js",
+    "static/css/main.0d6f7a65.chunk.css",
+    "static/js/main.16259592.chunk.js"
   ]
 }
