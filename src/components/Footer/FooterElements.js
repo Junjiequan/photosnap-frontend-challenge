@@ -1,5 +1,25 @@
-import Styled from 'styled-components';
+import Styled, { keyframes }from 'styled-components';
 import { Link as LinkR } from 'react-router-dom';
+
+const textAnim = {
+    bg_loop:keyframes`
+        0%{
+            background-position:200% center;
+        }
+        50%{
+            background-position:0% center;
+        }
+        100%{
+            background-position:200% center;
+        }
+    `,
+    jay_loop:keyframes`
+        0%{color:white;}
+        25%{color:yellow;}
+        50%{color:cyan;}
+        75%{color:purple}
+    `
+}
 
 export const FooterContainer = Styled.footer`
     display:flex;
@@ -124,16 +144,33 @@ export const FooterRightSection = Styled.div`
         min-height:6rem;
     }
 `
-export const FooterCopyRight = Styled.p`
+export const FooterSign = Styled.p`
     font-weight:400;
-    font-size:1.5rem;
+    font-size:1.4rem;
+    text-align:right;
     user-select:none;
-    opacity:.5;
     letter-spacing:.04rem;
     line-height:2.5rem;
+    color:rgba(255,255,255,0.3);
+    & a:first-of-type{
+        opacity:1;
+        color: red;
+        background: linear-gradient(to left, rgba(90, 119, 255, 1),rgba(188, 113, 152, 1),rgba(255, 197, 147, 1));
+        background-size: 200% auto;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: ${textAnim.bg_loop} 3s linear infinite;
+    }
     @media screen and (max-width:650px){
         font-size:1.3rem;
         margin-top:2rem;
         text-align:center;
     }
+`
+export const Sign = Styled.a`
+    color:white;
+    text-transform: uppercase;
+    position:relative;
+    font-weight:700;
+    animation: ${textAnim.jay_loop} 2s linear infinite;
 `

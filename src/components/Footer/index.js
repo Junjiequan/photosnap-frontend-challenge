@@ -10,8 +10,9 @@ import {
     FooterLinksPage,
     FooterLink,
     FooterRightSection,
-    FooterCopyRight,
-    FooterLogoLink
+    FooterSign,
+    FooterLogoLink,
+    Sign
 } from './FooterElements';
 import { GlobalArrowBtn } from '../../GlobalBtn';
 import  logoImg  from '../../assets/shared/desktop/logo-white.svg'
@@ -51,9 +52,13 @@ function Footer() {
                             <g fill="none" fillRule="evenodd" stroke="#fff"><path d="M0 7h41.864M35.428 1l6 6-6 6"/></g>
                         </svg>
                     </GlobalArrowBtn>
-                    <FooterCopyRight>
-                        Copyright 2021. All Rights Reserved
-                    </FooterCopyRight>
+                    <FooterSign>
+                        Challenge By 
+                        <a href="https://www.frontendmentor.io/challenges" aria-label="to front end mentor page" rel="nofollow noopener noreferrer"> Front end mentor</a>
+                        <br/>
+                        Coded By
+                        <Sign href="https://www.jayyy.site/" aria-label="to Jay's portfolio website" rel="nofollow noopener noreferrer"> Jay 💪</Sign>
+                    </FooterSign>
                 </FooterRightSection>
             </FooterWrapper>
         </FooterContainer>
