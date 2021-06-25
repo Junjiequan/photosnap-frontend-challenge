@@ -146,7 +146,7 @@ export const FooterSign = Styled.p`
     letter-spacing:.04rem;
     line-height:2.5rem;
     color:rgba(255,255,255,0.3);
-    & a:first-of-type{
+    & > a{
         opacity:1;
         color: red;
         background: linear-gradient(to left, rgba(90, 119, 255, 1),rgba(188, 113, 152, 1),rgba(255, 197, 147, 1));
