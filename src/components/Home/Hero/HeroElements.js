@@ -74,7 +74,7 @@ export const HeroP = styled.p`
 
 export const HeroImgWrapper = styled.div`
     flex: 1 1 83rem;
-    height:66rem;
+    height:65.4rem;
     @media screen and (max-width:767px){
         max-height:29.4rem;
         height:auto;
