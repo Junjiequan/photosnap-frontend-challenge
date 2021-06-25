@@ -8,10 +8,28 @@ const textAnim = {
         100%{background-position:200% center;}
     `,
     jay_loop:keyframes`
-        0%{color:white;}
-        25%{color:yellow;}
-        50%{color:cyan;}
-        75%{color:purple}
+        0%{
+            background:white;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        25%{
+            background:yellow;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            opacity:0.2;
+        }
+        50%{
+            background:cyan;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            opacity:0.7;
+        }
+        75%{
+            background:purple;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
     `
 }
 
@@ -146,14 +164,14 @@ export const FooterSign = Styled.p`
     letter-spacing:.04rem;
     line-height:2.5rem;
     color:rgba(255,255,255,0.3);
-    & > a{
+    & > a:first-of-type{
         opacity:1;
         color: red;
         background: linear-gradient(to left, rgba(90, 119, 255, 1),rgba(188, 113, 152, 1),rgba(255, 197, 147, 1));
         background-size: 200% auto;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        animation: ${textAnim.bg_loop} 3s linear infinite;
+        animation: ${textAnim.bg_loop} 5s linear infinite;
     }
     @media screen and (max-width:650px){
         font-size:1.3rem;
@@ -162,9 +180,11 @@ export const FooterSign = Styled.p`
     }
 `
 export const Sign = Styled.a`
-    color:white;
     text-transform: uppercase;
     position:relative;
     font-weight:700;
-    animation: ${textAnim.jay_loop} 2s linear infinite;
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: ${textAnim.jay_loop} 5s linear infinite;
 `
