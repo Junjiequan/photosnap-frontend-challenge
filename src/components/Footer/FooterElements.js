@@ -3,15 +3,9 @@ import { Link as LinkR } from 'react-router-dom';
 
 const textAnim = {
     bg_loop:keyframes`
-        0%{
-            background-position:200% center;
-        }
-        50%{
-            background-position:0% center;
-        }
-        100%{
-            background-position:200% center;
-        }
+        0%{background-position:200% center;}
+        50%{background-position:0% center;}
+        100%{background-position:200% center;}
     `,
     jay_loop:keyframes`
         0%{color:white;}
