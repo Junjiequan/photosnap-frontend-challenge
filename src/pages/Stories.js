@@ -5,7 +5,6 @@ import {motion} from 'framer-motion'
 
 function Stories({initial,animate,exit,variants,transition}) {
     return (
-        <>
         <motion.div
             initial={initial}
             animate={animate}
@@ -16,7 +15,6 @@ function Stories({initial,animate,exit,variants,transition}) {
         <Hero  />
         <Gallery data={galleryCollections} />
         </motion.div>
-        </>
     )
 }
 

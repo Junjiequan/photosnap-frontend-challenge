@@ -6,7 +6,6 @@ import {motion} from 'framer-motion'
 
 function Pricing({initial,animate,exit,variants,transition}) {
     return (
-        <>
         <motion.div
             initial={initial}
             animate={animate}
@@ -19,7 +18,6 @@ function Pricing({initial,animate,exit,variants,transition}) {
         <Compare />
         <Banner />
         </motion.div>
-        </>
     )
 }
 

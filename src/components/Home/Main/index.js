@@ -28,7 +28,7 @@ function Main({reversed,title,info,btnText,svgColor,img,bgWhite,alt}) {
                 </MainDescription>
             </MainDescWrapper>
             <MainImgWrapper>
-                <MainImg rel="preload" src={img} alt={alt}/>
+                <MainImg src={img} alt={alt}/>
             </MainImgWrapper>
         </MainContainer>
     )

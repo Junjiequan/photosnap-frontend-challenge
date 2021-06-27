@@ -9,7 +9,6 @@ import {motion} from 'framer-motion'
 
 function Home({initial,animate,exit,variants,transition}) {
     return (
-        <>
         <motion.div
             initial={initial}
             animate={animate}
@@ -23,7 +22,6 @@ function Home({initial,animate,exit,variants,transition}) {
             <Gallery data={galleryCollections} />
             <Features data={FeaturesData} />
         </motion.div>
-        </>
     )
 }
 

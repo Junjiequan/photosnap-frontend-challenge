@@ -6,7 +6,6 @@ import {motion} from 'framer-motion'
 
 function Features({initial,animate,exit,variants,transition}) {
     return (
-        <>
         <motion.div
             initial={initial}
             animate={animate}
@@ -18,7 +17,6 @@ function Features({initial,animate,exit,variants,transition}) {
         <Feature data={FeaturesData} />
         <Banner />
         </motion.div>
-        </>
     )
 }
 
