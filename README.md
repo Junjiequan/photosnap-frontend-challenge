@@ -10,11 +10,15 @@ import { slide as Menu} from 'react-burger-menu';
 function Header =()=>{
 const isMobile = useMediaQuery({maxWidth::"767px"})
     if(isMobile)
-        return 
-        <Menu>
-            <Nav />;
-        </Menu>
+        return(
+            <Menu>
+                <Nav />;
+            </Menu>
+        )
+        
 
-        return <Nav />;
+        return(
+             <Nav />
+        );
 }
 ```
